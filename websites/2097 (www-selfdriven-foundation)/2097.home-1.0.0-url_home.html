@@ -1,0 +1,1196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/site/2033/2032.favicon-1.0.0.png" type="image/png" />
+    
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+    <link rel="stylesheet" href="/site/2033/landkit.libs.bundle.css" />
+    <link rel="stylesheet" href="/site/2033/landkit.theme.bundle.css" />
+    <link rel="stylesheet" href="/site/2033/2032.style-1.0.0.css" />
+
+    <title>selfdriven Foundation</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+    
+        <!-- Brand -->
+        <a class="d-none navbar-brand" href="/">
+          <img src="/site/2033/2032.logo-1.0.0.png" class="navbar-brand-img" alt="...">
+        </a>
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+    
+          <!-- Navigation -->
+          <ul class="navbar-nav">
+            <li class="d-none nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLandings" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Landings
+              </a>
+              <div class="dropdown-menu dropdown-menu-xl p-0" aria-labelledby="navbarLandings">
+                <div class="row gx-0">
+                  <div class="col-12 col-lg-6">
+                    <div class="dropdown-img-start" style="background-image: url(./assets/img/photos/photo-3.jpg);">
+    
+                      <!-- Heading -->
+                      <h4 class="fw-bold text-white mb-0">
+                        Want to see an overview?
+                      </h4>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-white">
+                        See all the pages at once.
+                      </p>
+    
+                      <!-- Button -->
+                      <a href="./overview.html" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
+                        View all pages
+                      </a>
+    
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="dropdown-body">
+                      <div class="row gx-0">
+                        <div class="col-6">
+    
+                          <!-- Heading -->
+                          <h6 class="dropdown-header">
+                            Services
+                          </h6>
+    
+                          <!-- List -->
+                          <a class="dropdown-item" href="./coworking.html">
+                            Coworking
+                          </a>
+                          <a class="dropdown-item" href="./rental.html">
+                            Rental
+                          </a>
+                          <a class="dropdown-item mb-5" href="./job.html">
+                            Job Listing
+                          </a>
+    
+                          <!-- Heading -->
+                          <h6 class="dropdown-header">
+                            Apps
+                          </h6>
+    
+                          <!-- List -->
+                          <a class="dropdown-item" href="./desktop-app.html">
+                            Desktop
+                          </a>
+                          <a class="dropdown-item" href="./mobile-app.html">
+                            Mobile
+                          </a>
+    
+                        </div>
+                        <div class="col-6">
+    
+                          <!-- Heading -->
+                          <h6 class="dropdown-header">
+                            Web
+                          </h6>
+    
+                          <!-- List -->
+                          <a class="dropdown-item" href="./index.html">
+                            Basic
+                          </a>
+                          <a class="dropdown-item" href="./startup.html">
+                            Startup
+                          </a>
+                          <a class="dropdown-item" href="./enterprise.html">
+                            Enterprise
+                          </a>
+                          <a class="dropdown-item" href="./service.html">
+                            Service
+                          </a>
+                          <a class="dropdown-item" href="./cloud.html">
+                            Cloud Hosting
+                          </a>
+                          <a class="dropdown-item" href="./agency.html">
+                            Agency
+                          </a>
+                          <a class="dropdown-item" href="./framework.html">
+                            Framework <span class="h6 text-uppercase text-primary">(new)</span>
+                          </a>
+    
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </li>
+            <li class="d-none nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarPages" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarPages">
+                <div class="row gx-0">
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Career
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./careers.html">
+                          Listing
+                        </a>
+                        <a class="dropdown-item mb-5" href="./career-single.html">
+                          Opening
+                        </a>
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Company
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./about.html">
+                          About
+                        </a>
+                        <a class="dropdown-item" href="./pricing.html">
+                          Pricing
+                        </a>
+                        <a class="dropdown-item mb-5 mb-lg-0" href="./terms-of-service.html">
+                          Terms
+                        </a>
+    
+                      </div>
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Help center
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./help-center.html">
+                          Overview
+                        </a>
+                        <a class="dropdown-item mb-5" href="./help-center-article.html">
+                          Article
+                        </a>
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Contact
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./contact.html">
+                          Basic
+                        </a>
+                        <a class="dropdown-item" href="./contact-alt.html">
+                          Cover
+                        </a>
+    
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Blog
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./blog.html">
+                          Rich View
+                        </a>
+                        <a class="dropdown-item" href="./blog-post.html">
+                          Article
+                        </a>
+                        <a class="dropdown-item" href="./blog-showcase.html">
+                          Showcase
+                        </a>
+                        <a class="dropdown-item mb-5 mb-lg-0" href="./blog-search.html">
+                          Search
+                        </a>
+    
+                      </div>
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Portfolio
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./portfolio-masonry.html">
+                          Masonry
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-grid-rows.html">
+                          Grid Rows
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-parallax.html">
+                          Parallax
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-case-study.html">
+                          Case Study
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-sidebar.html">
+                          Sidebar
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-sidebar-fluid.html">
+                          Sidebar: Fluid
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-grid.html">
+                          Basic Grid
+                        </a>
+    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarAccount" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarAccount" style="left: 130px;">
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Settings
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./account-general.html">
+                      General
+                    </a>
+                    <a class="dropdown-item" href="./account-security.html">
+                      Security
+                    </a>
+                    <a class="dropdown-item" href="./account-notifications.html">
+                      Notifications
+                    </a>
+                    <a class="dropdown-item" href="./billing-plans-and-payment.html">
+                      Plans & Payment
+                    </a>
+                    <a class="dropdown-item" href="./billing-users.html">
+                      Users
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Sign In
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./signin-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./signin-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./signin.html">
+                      Basic
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSigninHorizontal">
+                      Modal Horizontal
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSigninVertical">
+                      Modal Vertical
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Sign Up
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./signup-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./signup-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./signup.html">
+                      Basic
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSignupHorizontal">
+                      Modal Horizontal
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSignupVertical">
+                      Modal Vertical
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Password Reset
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./password-reset-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./password-reset-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./password-reset.html">
+                      Basic
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Error
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./error-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./error-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./error.html">
+                      Basic
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown d-none">
+              <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                <div class="list-group list-group-flush">
+                  <a class="list-group-item" href="./docs/changelog.html">
+    
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"/><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"/><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"/></g></svg>                </div>
+    
+                    <!-- Content -->
+                    <div class="ms-4">
+    
+                      <!-- Heading -->
+                      <h6 class="fw-bold text-uppercase text-primary mb-0">
+                        Whitepaper
+                      </h6>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-gray-700 mb-0">
+                        Why
+                      </p>
+    
+                    </div>
+    
+                    <!-- Badge -->
+                    <span class="badge rounded-pill bg-primary-soft ms-auto">
+                      1.1.5
+                    </span>
+    
+                  </a>
+                  <a class="list-group-item" href="./docs/index.html">
+    
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"/><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"/><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"/></g></svg>                </div>
+    
+                    <!-- Content -->
+                    <div class="ms-4">
+    
+                      <!-- Heading -->
+                      <h6 class="fw-bold text-uppercase text-primary mb-0">
+                        Roadmap
+                      </h6>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-gray-700 mb-0">
+                        Path forward
+                      </p>
+    
+                    </div>
+    
+                  </a>
+
+                  <a class="list-group-item" href="./docs/index.html">
+    
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"/><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"/><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"/></g></svg>                </div>
+    
+                    <!-- Content -->
+                    <div class="ms-4">
+    
+                      <!-- Heading -->
+                      <h6 class="fw-bold text-uppercase text-primary mb-0">
+                        Organisation
+                      </h6>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-gray-700 mb-0">
+                        Who we are
+                      </p>
+    
+                    </div>
+    
+                  </a>
+
+                  <a class="list-group-item" href="./docs/index.html">
+    
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"/><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"/><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"/></g></svg>                </div>
+    
+                    <!-- Content -->
+                    <div class="ms-4">
+    
+                      <!-- Heading -->
+                      <h6 class="fw-bold text-uppercase text-primary mb-0">
+                        Tokenonics
+                      </h6>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-gray-700 mb-0">
+                        Tokens etc
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                  
+                </div>
+              </div>
+            </li>
+          </ul>
+    
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://app.selfdriven.cloud" target="_blank">
+            app
+          </a>
+    
+        </div>
+    
+      </div>
+    </nav>
+
+    <!-- WELCOME -->
+    <section class="py-8 py-md-9 border-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Preheader -->
+            <h6 class="text-uppercase text-primary d-none" data-aos="fade-up">
+              be curious, be caring
+            </h6>
+
+            <!-- Heading -->
+            <img src="/site/2097/selfdriven-logo-with-line.png" class="img-responsive w-50">
+            <h1 class="display-1 fw-bold" data-aos="fade-up" data-aos-delay="50" style="color:#9ECBED">
+              Foundation
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-5 pb-5" data-aos="fade-up" data-aos-delay="100">
+              Supporting the Supported Self-driven Learning Framework<br />& Cloud Service
+            </p>
+
+            <!-- Button -->
+            <p class="mb-7 mb-md-9 d-none" data-aos="fade-up" data-aos-delay="150">
+              <a class="btn btn-primary shadow lift" href="#!">
+                Whitepaper<i class="fe fe-arrow-right ms-3"></i>
+              </a>
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+
+            <img src="/site/2098/photo-2.jpg" class="rounded img-responsive w-100">
+            <!-- Video -->
+            <div class="ratio ratio-16x9 d-none">
+              <video class="rounded-lg bg-light shadow-lg" src="assets/video/video-1.mp4" autoplay loop muted>
+                Sorry, your browser doesn't support embedded videos,
+                but don't worry, you can <a href="assets/video/video-1.mp4">download it</a>
+                and watch it with your favorite video player!
+              </video>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- STEPS -->
+    <div class="position-relative mt-n12 mt-md-n15">
+      <div class="shape shape-bottom shape-fluid-x text-black">
+        <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M720 125L2160 0h720v250H0V125h720z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- STEPS -->
+    <div class="section bg-black pt-12 pt-md-15 pb-8 pb-md-11">
+      <div class="container">
+        <div class="row justify-content-between align-items-center mb-5">
+          <div class="d-none col-12 col-md-4 order-md-2 text-center">
+
+            <!-- Image -->
+            <img class="img-fluid w-75 w-md-100 mb-6 mb-md-0" src="assets/img/illustrations/illustration-1-dark.png" alt="...">
+
+          </div>
+          <div class="col-12 col-md-12 order-md-1">
+
+            <!-- Heading -->
+            <h2 class="text-white" style="max-width: 600px;">
+              Working to build a more inclusive learning enviroments.
+            </h2>
+
+            <!-- Text -->
+            <div class="lead text-muted-80 mb-3">
+              A society / community is a function of us and we need to give young people opportunities to authentically facilitate a community.
+            </div>
+
+            <div class="lead text-muted-80 mb-3">
+              A learning community is a great place to put this into practice, i.e. governance, improving the environment, provision of food, clothing, caring for others etc.
+            </div>
+
+            <div class="lead text-muted-80 mb-3">
+              We believe that people (learners) with the following attributes, are good members of a modern society / community:
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <div class="col-auto col-md-12">
+
+                <!-- Step -->
+                <div class="row gx-0 align-items-center mb-md-5">
+                  <div class="col-auto">
+
+                    <!-- Number -->
+                    <a class="btn btn-sm btn-rounded-circle btn-gray-400-10 disabled opacity-1" href="#!">
+                      <span>1</span>
+                    </a>
+
+                  </div>
+                  <div class="col">
+
+                    <!-- Divider -->
+                    <hr class="d-none d-md-block bg-gray-900-50 me-n7">
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+              <div class="col col-md-12 ms-n5 ms-md-0">
+
+                <!-- Heading -->
+                <h3 class="text-white">
+                  Self-driven.
+                </h3>
+
+                <!-- Text -->
+                <p class="text-muted-80 mb-6 mb-md-0">
+                  Can make a decision.</p>
+              </div>
+            </div> <!-- / .row -->
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <div class="col-auto col-md-12">
+
+                <!-- Step -->
+                <div class="row gx-0 align-items-center mb-md-5">
+                  <div class="col-auto">
+
+                    <!-- Number -->
+                    <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400-10 disabled opacity-1">
+                      <span>2</span>
+                    </a>
+
+                  </div>
+                  <div class="col">
+
+                    <!-- Divider -->
+                    <hr class="d-none d-md-block bg-gray-900-50 me-n7">
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+              <div class="col col-md-12 ms-n5 ms-md-0">
+
+                <!-- Heading -->
+                <h3 class="text-white">
+                  Self-aware.
+                </h3>
+
+                <!-- Text -->
+                <p class="text-muted-80 mb-6 mb-md-0">
+                  As it relates to self and others.</p>
+              </div>
+            </div> <!-- / .row -->
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <div class="col-auto col-md-12">
+
+                <!-- Step -->
+                <div class="row gx-0 align-items-center mb-md-5">
+                  <div class="col-auto">
+
+                    <!-- Number -->
+                    <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400-10 disabled opacity-1">
+                      <span>3</span>
+                    </a>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+              <div class="col col-md-12 ms-n5 ms-md-0">
+
+                <!-- Heading -->
+                <h3 class="text-white">
+                  Importance of the collective.
+                </h3>
+
+                <!-- Text -->
+                <p class="text-muted-80 mb-0">
+                  Community.
+                </p>
+              </div>
+            </div> <!-- / .row -->
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container-->
+    </div>
+
+    <!-- STEPS -->
+    <div class="position-relative">
+      <div class="shape shape-top shape-fluid-x shape-flip-x text-black">
+        <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h2880v125h-720L720 250H0V0z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section>
+      <div class="container">
+        <div class="row justify-content-between align-items-center mb-5 pb-5">
+          <div class="d-none col-12 col-md-6 col-lg-5 order-md-2">
+
+            <!-- Image grid -->
+            <div class="d-flex flex-column w-md-130 mb-6 mb-md-0">
+
+              <!-- Image -->
+              <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-20" src="assets/img/screenshots/ui/analytics-2.png" alt="..." style="min-height: 1px; max-width: 50%; margin-left: 40%;">
+
+              <!-- Image -->
+              <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-50" src="assets/img/screenshots/ui/analytics-1.png" alt="..." style="min-height: 1px; max-width: 50%; margin-top: -35%;">
+
+              <!-- Image -->
+              <img class=" img-fluid rounded shadow align-self-center" data-jarallax-element="-80" src="assets/img/screenshots/ui/analytics-3.png" alt="..." style="min-height: 1px; max-width: 50%; margin-top: -20%;">
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-11 order-md-1 pt-md-10">
+
+            <!-- Heading -->
+            <h1 class="d-none">
+              Why?
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-6">
+              A learning operating system that:
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-12">
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4" style="color: #F7931D;">
+                    <i class="fe fe-chevron-right"></i>
+                  </div>
+
+                  <!-- Text -->
+                  <p class="" style="color: #F7931D;">
+                    Captures all of a learner's activity and growth.
+                  </p>
+
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check --> 
+                  <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4" style="color: #F7931D;">
+                    <i class="fe fe-chevron-right"></i>
+                  </div>
+
+                  <p class="" style="color: #F7931D;">
+                    Supports self-driven learning.
+                  </p>
+
+                </div>
+
+              </div>
+              <div class="col-12 col-lg-6">
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <span class="badge badge-rounded-circle bg-success-soft mt-1 me-4" style="color: #F7931D;">
+                    <i class="fe fe-chevron-right"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p class="" style="color: #F7931D;">
+                    Connections learners with their learning partners.
+                  </p>
+
+                </div>
+              
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-8 py-md-11 d-none">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-md-6 img-skewed img-skewed-end">
+
+            <!-- Code -->
+            <div class="card rounded-lg bg-black mb-6 mb-md-0 img-skewed-item screenshot">
+              <div class="card-header border-white-10">
+
+                <!-- Controls -->
+                <div class="d-flex">
+                  <span class="bg-danger rounded-circle" style="width: 10px; height: 10px;"></span>
+                  <span class="bg-warning rounded-circle ms-1" style="width: 10px; height: 10px;"></span>
+                  <span class="bg-success rounded-circle ms-1" style="width: 10px; height: 10px;"></span>
+                </div>
+
+              </div>
+              <div class="card-body">
+
+                <!-- Code -->
+                <code class="highlight" data-typed='{"backSpeed":2, "strings": [">&nbsp;$&nbsp;npm&nbsp;install<br/><span class=\"text-success\">Everything&nbsp;is&nbsp;installed</span><br/><br/>>&nbsp;$&nbsp;npm start<br/><span class=\"text-success\">scss&nbsp;watching</span><br/><span class=\"text-success\">LiveReload&nbsp;started</span><br/><span class=\"text-success\">Opening&nbsp;localhost:8080</span><br/><br/>>&nbsp;$&nbsp;that&#x2019;s&nbsp;it<br/><span class=\"text-success\">Yup,&nbsp;that&#x2019;s&nbsp;it.</span>"]}' style="min-height: 183px;"></code>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-5">
+
+            <!-- Heading -->
+            <h2>
+              Universal access to your data is one of our core values.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula auctor ornare. Nulla non ullamcorper tellus.
+            </p>
+
+            <!-- Link -->
+            <a class="fw-bold text-decoration-none" href="#!">
+              View our API <i class="fe fe-arrow-right ms-3"></i>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section class="border-top d-none">
+      <div class="container">
+        <div class="row justify-content-between align-items-stretch">
+          <div class="col-12 col-md-6 py-8 py-md-13">
+
+            <!-- Heading -->
+            <h2>
+              Corporate cards available on iOS and Android.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula auctor ornare. Nulla non ullamcorper tellus. Vestibulum pulvinar eros nec tortor maximus, iaculis rutrum nibh mollis.
+            </p>
+
+            <!-- Button -->
+            <a class="text-reset d-inline-block me-1" href="#!">
+              <img src="assets/img/buttons/button-app.png" class="img-fluid" alt="..." style="max-width: 155px;">
+            </a>
+
+            <!-- Button -->
+            <a class="text-reset d-inline-block" href="#!">
+              <img src="assets/img/buttons/button-play.png" class="img-fluid" alt="..." style="max-width: 155px;">
+            </a>
+
+          </div>
+          <div class="col-12 col-md-5">
+
+            <!-- Image -->
+            <div class="position-relative h-100 vw-50 bg-cover" style="background-image: url(assets/img/covers/cover-18.jpg);">
+
+              <!-- Shape -->
+              <div class="shape shape-start shape-fluid-y text-white">
+                <svg viewBox="0 0 100 1544" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h100v386l-50 772v386H0V0z" fill="currentColor"/></svg>              </div>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- BRANDS -->
+    <section class="py-6 py-md-8 bg-primary d-none">
+      <div class="container">
+        <div class="flickity-viewport-visible" data-flickity='{"imagesLoaded": true, "initialIndex": 6, "pageDots": false, "prevNextButtons": false, "contain": true}'>
+          <div class="col-4 col-md-3 col-lg-2">
+
+            <!-- Brand -->
+            <div class="img-fluid text-white">
+
+            </div>
+          </div>
+        </div>
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- INTEGRATIONS -->
+    <section class="bg-black py-8 py-md-10">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Preheading -->
+            <h6 class="text-uppercase text-warning d-none">What</h6>
+
+            <!-- Heading -->
+            <h1 class="fw-bold text-white mb-9">
+              The selfdriven operating system seeks to solve the following problems.
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-9 d-none">
+              ...
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4 d-none">
+             
+            </div>
+
+            <!-- Heading -->
+            <h3 class="fw-bold text-white">
+              Capture Learning Activity
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8">
+              Current learning operating systems do not adequately capture experience-based learning / all of learning activity.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+
+            <div class="icon icon-lg mb-4 d-none"></div>
+
+            <!-- Heading -->
+            <h3 class="fw-bold text-white">
+              Measuring
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8 mb-lg-0">
+              The needs of the learner do not always align with what the learning environment needs to measure / is measuring
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4 d-none">
+            </div>
+
+            <!-- Heading -->
+            <h3 class="fw-bold text-white">
+              Trusted Source
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8 mb-md-0">
+              There is no trusted source of information for learning partners (including high schools, universities, TAFE etc) to ensure learners make the best decisions about their future learning pathway.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+          </div> 
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-black">
+      <div class="container py-6 py-md-8 border-top border-bottom border-gray-900-50">
+        <div class="row align-items-center">
+          <div class="col-12 col-md">
+
+            <!-- Heading -->
+            <h3 class="fw-bold text-white mb-1">
+              Collaborate
+            </h3>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-5 mb-md-0">
+              Talk to use about how we can work together.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-auto">
+
+            <!-- Button -->
+            <a href="mailto:hello@selfdriven.foundation" class="btn btn-primary lift">
+              Contact Us
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-black">
+      <div class="container d-none">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+    
+            <!-- Brand -->
+            <img src="./assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
+    
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              A better way to learn.
+            </p>
+    
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Products
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Page Builder
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Styleguide
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Services
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Pagebuilder
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Connect
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Page Builder
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Styleguide
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Pagebuilder
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    
+    <!-- Vendor JS -->
+    <script src="/site/2033/landkit.vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="/site/2033/landkit.theme.bundle.js"></script>
+
+  </body>
+</html>

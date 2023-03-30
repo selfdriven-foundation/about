@@ -1,0 +1,45 @@
+html {
+   min-height: 100%;
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/site/2152/2152.cover-1.0.1.png");
+
+   background-size: cover;
+   background-repeat: no-repeat !important;
+   background-attachment: fixed;
+}
+
+body
+{
+    background-color: transparent !important;
+}
+    .popover
+    {
+        background-color:#1a1518 !important;
+        border-color:#fadb86 !important;
+        border-width:1px !important;
+    }
+
+    .entityos-click
+    {
+        color:#fadb86 !important;
+        font-size:1.2rem !important;
+    }
+
+    .bs-popover-bottom>.popover-arrow:after {
+        border-bottom-color: #fadb86;
+    }
+
+    .bs-popover-right>.popover-arrow:after {
+        border-right-color: #fadb86;
+    }
+
+    .bs-popover-left>.popover-arrow:after {
+        border-left-color: #fadb86;
+    }
+
+    .entityos-dropdown
+    {
+        color:#fadb86 !important;
+        font-size:1.2rem !important;
+    }
+
+

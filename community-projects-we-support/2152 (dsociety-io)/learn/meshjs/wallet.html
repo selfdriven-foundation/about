@@ -1,0 +1,32 @@
+<html lang="en" style="background-color: #f4f4f4;">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="shortcut icon" href="/site/2152/2152.icon-1.0.0.png" type="image/png" />
+        <link rel="stylesheet" href="/site/2033/landkit.libs.bundle.css" />
+        <link rel="stylesheet" href="/site/2033/landkit.theme.bundle.css" />
+        <link rel="stylesheet" href="/site/2033/2032.style-1.0.0.css" />
+        <link rel="stylesheet" href="/site/2098/entityos.util-4.4.17.css" />
+
+        <title>dSociety.io App</title>
+    </head>
+
+    <body class="item background-cover" style="background-size: cover !important; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/site/2152/2152.cover-1.0.0.jpg')">
+       
+    </body>
+
+
+
+</html>
+
+
+// import BrowserWallet
+import { BrowserWallet } from '@meshsdk/core';
+
+// connect to a wallet
+const wallet = await BrowserWallet.enable('eternl');
+
+// get assets in wallet
+const assets = await wallet.getAssets();

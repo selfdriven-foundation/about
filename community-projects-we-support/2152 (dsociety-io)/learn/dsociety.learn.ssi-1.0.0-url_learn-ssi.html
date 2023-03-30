@@ -1,0 +1,78 @@
+<!--
+    A learn-by-example of SSI DID
+
+    # Create DID
+        - Download Private Key
+        - Document did-document.json with DID & Public Key
+    
+    Thank you,
+    Turlia.
+
+    We have an opportunity
+    to descentralise
+    & rehumanise our society
+
+    --
+
+    Great reference: DID authorisation (proofing ownership)
+    https://www.w3.org/Security/201812-Auth-ID/04_-_Day_1_-_Understanding_DID_Auth.pdf
+
+    Use https://github.com/digitalbazaar/ed25519-verification-key-2020/tree/main/lib to genrate keys
+-->
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="shortcut icon" href="/site/2152/2152.icon-1.0.1.png" type="image/png" />
+        <link rel="stylesheet" href="/site/2033/landkit.libs.bundle.css" />
+        <link rel="stylesheet" href="/site/2033/landkit.theme.bundle.css" />
+        <link rel="stylesheet" href="/site/2152/dsociety.style-1.0.0.css" />
+        <link rel="stylesheet" href="/site/2098/entityos.util-4.4.17.css" />
+
+        <title>dSociety Learn SSI</title>
+    </head>
+
+    <body>
+        <div class="text-center pt-8">
+            <a href="/" style="font-family: PT Mono, monospace; color:#ff943d; font-size:4rem;">dSociety</a>
+        </div>
+       
+        <div class="text-center pt-4">
+            <button id="learn-ssi-create-did" type="button" class="btn btn-outline-warning disabled" data-container="body" data-toggle="popover" data-placement="bottom">
+                Create DID
+            </button>
+        </div>
+
+         <div id="learn-view">
+            <div class="text-center mt-8" style="font-family: PT Mono, monospace; font-size: 1.4rem; color:#e8d5cf;">Example of DID Creation Coming Soon!</div>
+
+            <div class="text-center mt-3">
+                <a style="font-family: PT Mono, monospace; font-size: 1.4rem; color:#e8d5cf;" href="https://buildingoncardano.dev/#ssi" target="_blank">In the mean-time checkout BuildingOnCardano.dev/#ssi <i class="fe fe-external-link"></i></a>
+            </div>
+         </div>
+
+        <div id="learn-info-view" class="text-center pt-8" style="width:100%;">
+        </div>
+
+    </body>
+
+    <!-- Vendor JS -->
+	<script src="/site/2033/landkit.vendor.bundle.js"></script>
+
+	<!-- Theme JS -->
+	<script src="/site/2033/landkit.theme.bundle.js"></script>
+
+	<script src="/site/2030/jquery-3.2.1.min.js"></script>
+	<script src="/site/1901/lodash.min.js"></script>
+	<script src="/site/1901/moment.min.js"></script>
+	<script src="/site/1901/numeral.min.js"></script>
+    <script src="/site/1987/popper.min.js"></script>
+    <script src="/site/2152/cbor.js"></script>
+
+	<script src="/site/2152/entityos-3.9.6.js"></script>
+	<script src="/site/2152/entityos.util-5.0.0.js"></script>
+    <script src="/site/1987/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,1033 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="/site/2033/2032.favicon-1.0.0.png" type="image/png" />
+
+	<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+	<link rel="stylesheet" href="/site/2033/landkit.libs.bundle.css" />
+	<link rel="stylesheet" href="/site/2033/landkit.theme.bundle.css" />
+	<link rel="stylesheet" href="/site/2033/2032.style-1.0.0.css" />
+
+	<title>selfdriven Foundation; Trust</title>
+</head>
+
+<!--
+	Verification as a part of trust
+
+1. Add the template as SDD - link to document - holds the rules etc as JSON - and machine readable.
+2. Add SDV with a hash context="entity?" attribute of "data" and SDD: 'SDD GUID'
+3. Add SDA that has template: ['SDD GUID']
+
+Verification (Triangulation) by the consumer example:
+
+1. Get SDI from person and some other attributes
+2. Verify that the providing person can proof it is their SDI
+3. Find linked SDAs
+4. Look in SDA for templates (SDDs) - ie what the basis that the SDA was issued.
+5. Look at SDD and get the JSON template
+6. Verify the JSON template by hashing the data and checking against the hash stored in the SDV
+
+Can be used by community for all sorts of rules.
+By selfdriven DAOs for constinutions etc.
+-->
+
+<body>
+
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		<div class="container-fluid">
+
+			<!-- Brand -->
+			<a class="d-none navbar-brand" href="/">
+				<img src="/site/2033/2032.logo-1.0.0.png" class="navbar-brand-img" alt="...">
+			</a>
+
+			<!-- Toggler -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Collapse -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+
+				<!-- Toggler -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fe fe-x"></i>
+				</button>
+
+				<!-- Navigation -->
+				<ul class="navbar-nav">
+				</ul>
+
+				<!-- Button -->
+				<a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://app.selfdriven.cloud"
+					target="_blank">
+					App
+				</a>
+
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- WELCOME -->
+	<section class="py-8 py-md-9 border-bottom">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-10 col-lg-8 text-center">
+
+					<!-- Preheader -->
+					<h6 class="text-uppercase text-primary d-none" data-aos="fade-up">
+						be curious, be caring
+					</h6>
+
+					<!-- Heading -->
+					<a href="/"><img src="/site/2097/selfdriven-logo-with-line.png" class="img-responsive w-50"></a>
+					<h1 class="display-2 fw-bold" data-aos="fade-up" data-aos-delay="50" style="color:#9ECBED">
+						Trust
+					</h1>
+
+					<!-- Text -->
+					<p class="lead text-muted mb-5 pb-5" data-aos="fade-up" data-aos-delay="100">
+						For everyone and everything.
+					</p>
+
+					<!-- Button -->
+					<p class="mb-7 mb-md-9 d-none" data-aos="fade-up" data-aos-delay="150">
+						<a class="btn btn-primary-outline shadow lift" href="/identity">
+							Identity<i class="fe fe-arrow-right ms-3"></i>
+						</a>
+					</p>
+
+				</div>
+			</div> <!-- / .row -->
+			<div class="row">
+				<div class="col-12" data-aos="fade-up" data-aos-delay="200">
+					<img src="/site/2098/2097.cover-1.0.51b.png" class="rounded img-responsive w-100">
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+	<!-- STEPS -->
+	<div class="position-relative mt-n12 mt-md-n15">
+		<div class="shape shape-bottom shape-fluid-x text-black">
+			<svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M720 125L2160 0h720v250H0V125h720z" fill="currentColor" />
+			</svg>
+		</div>
+	</div>
+
+	<!-- STEPS -->
+	<div class="section bg-black pt-12 pt-md-15 pb-8 pb-md-11">
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-5">
+				<div class="d-none col-12 col-md-4 order-md-2 text-center">
+				</div>
+				<div class="col-12 col-md-12 order-md-1">
+
+					<!-- Heading -->
+					<h2 class="d-none text-white" style="max-width: 600px;">
+						Background
+					</h2>
+
+					<!-- Text -->
+					<div class="d-none lead text-muted-80 mb-3">
+						Verification ...
+					</div>
+
+				</div>
+			</div> <!-- / .row -->
+			<div class="row">
+				<div class="col-12 col-md-12">
+					<div class="row">
+						<div class="col col-md-10 ms-md-0">
+
+							<!-- Heading -->
+							<h2 class="fw-bold text-white mb-md-6">
+								Identity. Who are you?
+							</h2>
+
+                            <p class="lead text-muted-80 mb-6 mb-md-4">
+								Proof of rules - what is the learning template
+							</p>
+
+                            <p class="lead text-muted-80 mb-6 mb-md-0">
+								Open.  Works well with others.
+							</p>
+							
+						</div>
+					</div> <!-- / .row -->
+				</div>
+               
+			</div> <!-- / .row -->
+
+		</div> <!-- / .container-->
+	</div>
+
+	<!-- STEPS -->
+	<div class="position-relative">
+		<div class="shape shape-top shape-fluid-x shape-flip-x text-black">
+			<svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0 0h2880v125h-720L720 250H0V0z" fill="currentColor" />
+			</svg>
+		</div>
+	</div>
+
+	<!-- ABOUT -->
+	<section>
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-md-5 pb-5">
+				<div class="col-12 col-md-11 order-md-1 pt-md-12 pt-8">
+
+					<!-- Heading -->
+					<h2 class="text-secondary">
+						The selfdriven verification framework helps with ...
+					</h2>
+					<!-- List -->
+					<div class="row">
+						<div class="col-12 col-lg-12">
+							<!-- Item -->
+							<div>
+								<ul>
+									<li class="mb-3 lead">Proofing the identities for people, organisations and things.</li>
+                                    <li class="mb-3 lead">The basis for issuance (the rules) behind the decision to issue an achievement & associated skills from the <a href="/skills">selfdriven Universal Skills Set.</a></li>
+									<li class="mb-3 lead">Creating "<a href="/on-chain">On-Chain</a>" identity; powered by Cardano.</li>
+                                    <li class="mb-3 lead">Linking to existing "On-Chain" Decentralised ID (DID) frameworks.</li>
+								</ul>
+							</div>
+						</div>
+					</div> <!-- / .row -->
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+	<!-- LISTEN -->
+	<section class="bg-black py-4 pb-4 border-top border-gray-900-50">
+		<div class="container" id="listen">
+			<div class="row justify-content-between align-items-center pb-5">
+				
+                <div class="col-12 col-md-6  pt-md-6 pt-6 text-center">
+					<a href="#issuing" class="smoothscroll">
+						<h2 class="my-3 fw-bold">
+							Issuing 
+						</h2>
+					</a>
+
+                    <p class="text-muted-80 w-75 mx-auto">
+						The process by which a person or organisation ("learning-partner") that can verify the learner experience and assign the skills gained etc.
+					</p>
+				</div>
+
+                  <div class="col-12 col-md-6  pt-md-6 pt-6 text-center">
+					<a href="#verifying" class="smoothscroll">
+						<h2 class="my-3 fw-bold">
+							Verifying
+						</h2>
+					</a>
+
+					<p class="text-muted-80 w-75 mx-auto">
+						The process by which a person or organisation can verify an entity and any skills gained etc.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="issuing">
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-md-5 pb-5">
+				<div class="col-12">
+					<h2 class="mt-6 mb-5 fw-bold text-center">
+						Issuing
+					</h2>
+
+					<div class="container">
+						<div class="row border-bottom border-gray-300 pt-4 pb-8">
+							<h3 class="col-12 col-md-3 text-center fw-bold">Example Process of Learning Partner Verifing Achievements & Endorsements</h3>
+							<div class="col-12 col-md-9">
+								<div><img src="/site/2098/selfdriven-experience-dark-2.png" class="rounded img-responsive w-100"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container">
+						<div class="row pt-4 pb-4">
+							<h3 class="col-12 col-md-3 text-center fw-bold">Skills</h3>
+							<div class="col-12 col-md-9">
+								<div>After verification of achievements (based on learning templates) by the trusted learning partner (Community Members) has been completed, they are created as SDA <a href="/tokens">tokens</a> with links to associated skills (SDI tokens).</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section id="verifying">
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-md-5 pb-5">
+				<div class="col-12">
+					<h2 class="mt-3 mb-5 fw-bold text-center">
+						Verifing
+					</h2>
+
+					<div class="container">
+                        <div class="row border-bottom border-gray-300 pt-4 pb-4">
+							<h3 class="col-12 col-md-3 text-center fw-bold">Verifying On-Cloud (Off-Chain)</h3>
+							<div class="col-12 col-md-9">
+								<div><img src="/site/2098/selfdriven-sdi-verify-on-cloud-dark.png" class="rounded img-responsive w-100"></div>
+							</div>
+						</div>
+
+						<div class="row border-bottom border-gray-300 pt-4 pb-4">
+                            <div class="col-12 col-md-3">
+							    <h3 class="text-center fw-bold">Verifying On-Chain</h3>
+
+                                <div class="mt-6 alert alert-warning text-center">
+                                    <div class="text-danger">! Important</div>
+                                   
+                                    <div class="my-2">
+                                        Be careful hashing/encrypting any personal data on-chain directly.
+                                    </div>
+                                    <div class="my-2">
+                                        Recommend using a DID service provider and then linking to it as "did/wc3" attribute.
+                                    </div>
+                                </div>
+                            </div>
+
+							<div class="col-12 col-md-9">
+								<div class="fw-bold">
+                                    A person is applying for a course with say a university or position with an organisation that requires the learner has verifiable existing skills. 
+                                </div>
+                                <div class="mt-2">
+                                   The person provides their SDI e.g. <span style="word-break: break-all; font-family: monospace;">9cbdb0a2-45e7-4be3-83d8-c8d0723aea87</span>, and their email address e.g. <span style="word-break: break-all; font-family: monospace;">jane@email.com</span>.
+                                </div>
+                                <div class="mt-2">
+                                    selfdriven has issued a SDV token for the SDI which includes the <em>email</em> attribute that was verified as controlled by the person at the time of issuing - <a style="word-break: break-all;"
+                                        href="https://cardanoscan.io/transaction/0689cbf864314a3eadcde7bc58daf7629aa2f88b6c1ea5d982e6e1c2f5d39b92?tab=metadata"
+                                        target="_blank">On-Chain Example <i class="fe fe-external-link"></i></a>
+                                </div>
+                                <div class="mt-2">
+                                    Using the well-known selfdriven Policy ID (<a style="word-break: break-all; font-family: monospace;"
+                                        href="https://cardanoscan.io/tokenPolicy/9a9fc2f60bbfb73eb9bfd71786778f39e400599c8f45ebaee773af20"
+                                        target="_blank">9a9fc2f60bbfb73eb9bfd71786778f39e400599c8f45ebaee773af20</a>) the organisation queries the Cardano blockchain for the matching SDV based on the provided SDI.
+                                </div>
+                                 <div class="mt-2">
+                                    Once the organisation has verified the person still has control of the email address - by say sending them a unique code and asking for them communicate it back to them - they then hash the SDI & email adddress and check that it matches the hash in the SDV token as per below.
+                                </div>
+							
+						
+							    <h3 class="fw-bold mt-6">Checking the SDV Token Identifier Attribute</h3>
+							
+								<div class="mt-2">Check the SDV metadata for the version</div>
+                                <div class="mt-2">Version type of privacy protection is open, but common options are:</div>
+                                <div class="mt-2">
+                                    <ul>
+                                        <li>
+                                            <a style="word-break: break-all; font-family: monospace;"
+                                                href="https://emn178.github.io/online-tools/sha256.html" target="_blank">sha256</a>
+                                        </li>
+                                        <li>
+                                            <a style="word-break: break-all; font-family: monospace;"
+                                                href="https://emn178.github.io/online-tools/sha256.html" target="_blank">sha256</a>-sdvk
+                                        </li>
+                                        <li>
+                                            <a style="word-break: break-all; font-family: monospace;" href="https://aesencryption.net"
+                                                target="_blank">aes256</a>
+                                        </li>
+                                    </ul>
+                            
+                                    <div class="mt-2"><i class="fe fe-key"></i> sdvk = SDVk; the verfication key (password) that goes with the SDV verification token and issued to community member when they get
+                                        their public on-chain SDI.  They can then share it with anyone wanting to verify them.</div>
+                            
+                                    <div class="mt-2">Then using the matching algorithm version; hash or encrypt:</div>
+                                    <div>
+                                        eg
+                                        <ul>
+                                            <li>sha256; <span
+                                                    style="word-break: break-all; font-family: monospace;">[SDI]-[Attribute]-[Value]</span></li>
+                                            <li>sha256-sdvk; <span
+                                                    style="word-break: break-all; font-family: monospace;">[SDI]-[Attribute]-[Value]-[SDVk]</span>
+                                            </li>
+                                            <li>aes256; <span
+                                                    style="word-break: break-all; font-family: monospace;">[SDI]-[Attribute]-[Value]</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mt-2">eg for sha256-sdvk:</div>
+                                    <div class="small">
+                                        <span style="word-break: break-all; font-family: monospace;">9cbdb0a2-45e7-4be3-83d8-c8d0723aea87</span><span class="text-muted">-</span><span
+                                            style="word-break: break-all; font-family: monospace;">11942f7e-b6f4-4375-920e-fbe1991951da</span><span class="text-muted">-</span><span
+                                            style="word-break: break-all; font-family: monospace;">9cbdb0a2-45e7-4be3-83d8-c8d0723aea87</span><span class="text-muted">-</span><span style="word-break: break-all; font-family: monospace;">email</span><span class="text-muted">-</span><span
+                                            style="word-break: break-all; font-family: monospace;">john@email.com</span>
+                                    </div>
+                                    <div class="mt-2">Which hashes as:</div>
+                                    <div class="small" style="word-break: break-all; font-family: monospace;">
+                                        4bd1c5d26d688b0383b0db8fc33cd08209525c7feb3d84f28b7f372310bd7fcf</div>
+                                    <div class="mt-2">Then verify that this value equals the one in the SDV token metadata.</div>
+                                    <div>And this either proving or disproving that the claim by the person that the SDI is theirs.</div>
+                                </div>
+							
+							    <h3 class="fw-bold mt-6">SDV Identified Attributes Structure</h3>
+							
+								<div class="fw-bold text-secondary">Version</div>
+                                <div>Can be any algorithm, but typically, including our mixed "sdvk" hashing:<br />"sha256", "sha512", "sha256-sdvk", "sha512-sdvk", "aes256", "pem"</div>
+                                <div class="fw-bold text-secondary mt-2">Category</div>
+                                <div>The <a href="/whitepaper">Importance Of</a> values as lower kebab case.</div>
+                                <div>eg 'environment', 'social-interaction'</div>
+                                <div class="fw-bold text-secondary mt-2">Type</div>
+                                <div>"virtual", "physical"</div>
+                                <div class="fw-bold text-secondary mt-2">Context</div>
+                                <div>Can be as required, but typically:<br />"uri", "communication", "geolocation", "service", "cardano", "avatar", "website", "did", "ipfs"</div>
+                                <div class="fw-bold text-secondary mt-2">Attibutes</div>
+                                <div>Can be as required, but typically:<br />"email", "usi", "mobile", "address", "transaction", "uxto", "url", "name", "w3c", "public-key-rsa-spki", "hash"</div>
+
+                                <div class="mt-5">
+                                    <a style="word-break: break-all;"
+                                        href="https://cardanoscan.io/transaction/0689cbf864314a3eadcde7bc58daf7629aa2f88b6c1ea5d982e6e1c2f5d39b92?tab=metadata"
+                                        target="_blank">On-Chain Example <i class="fe fe-external-link"></i></a>
+                                </div>
+
+								<div class="mt-5">
+									 <h3 class="fw-bold mt-6">Example Binding to IAMX DID</h3>
+									<div>
+										Bind a IAMX DID based on "Communications" context (Socials/Email) and/or "Who Am I" (KYC)
+									</div>
+									<div class="mt-2">
+										Entity creates DID using <a href="https://nftidentity.iamx.id" target="_blank">nftidentity.iamx.id</a>, which is currently stored as DID document on IPFS.
+									</div>
+									<div class="mt-2">
+										IPFS Hash is submitted to selfdriven via app.slfdrvn.io and based on a matching email a SDV token is created with:
+										<ul>
+											<li>Category: "understand-of-self"</li>
+											<li>Type: "virtual"</li>
+											<li>Context: "ipfs"</li>
+											<li>Attribute: "hash"</li>
+											<li>Value: {{IPFS Hash of the IAMX DID document}}</li>
+										</ul>
+
+									</div>
+								</div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="bg-black">
+		<div class="container py-6 py-md-6">
+			  <div class="row pt-4 mb-4">
+				<div class="col-12 text-center">
+					<h2 class="fw-bold text-muted-80">
+						Foundation of Trust
+					</h2>
+				</div>
+            </div>
+            <div class="row"></div>
+				<div class="col-12 text-center">
+					<img src="/site/2098/selfdriven-community-achievements-issuing-dark.png"
+						class="rounded img-responsive w-100 w-md-75">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	 <section>
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-md-5 pb-5">
+
+				<h2 class="mt-6 mb-3 fw-bold text-secondary">
+					Layers
+				</h2>
+				<div class="text-secondary">
+					Layers of trust as per diagram above.
+				</div>
+				<div class="container">
+					<div class="row border-bottom border-gray-300 pt-2 pb-2 fw-bold text-muted">
+						<div class="col-1 text-center">Layer</div>
+						<div class="col-5">Description</div>
+                        <div class="col-6">Notes</div>
+					</div>
+					<div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">1</div>
+						<div class="col-5">The basis of all learning communities using the selfdriven operating system.</div>
+						<div class="col-6">
+                            <ul>
+                                <li>
+							        <div class="text-secondary">selfdriven Foundation SDI</div>
+                                    <div>9efb26dc-d247-4ad7-a8c0-b3f4782338f7</div>
+                                </li>
+                                <li class="mt-2">
+                                    <div class="text-secondary">selfdriven Community SDI</div>
+                                    <div>bce5418c-376c-4a7c-8520-88bfb23584d1</div>
+                                </li>
+                            </ul>
+						</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">2</div>
+						<div class="col-5">The achievement that enables learning-partners to issue achievements (SDAs) up to the level of their highest level for the <em>selfdriven Learning-Partner</em> skill.</div>
+						<div class="col-6">
+                            <ul>
+                                <li>
+							        <div class="text-secondary">selfdriven Learning-Partner Skill (Level 20) SDI</div>
+                                    <div>4645047d-1252-4b20-a054-2ab424d4077d</div>
+                                </li>
+                                 <li class="mt-2">
+                                    <div><a class="text-secondary" href="/explorer/0038000200" target="_blank">All Levels <i class="fe fe-external-link"></i></a></div>
+                                 </li>
+                            </ul>
+						</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">3</div>
+						<div class="col-5">Learning achievements as issued by learning-partners with the <em>selfdriven Learning-Partner</em> skill.</div>
+						<div class="col-6">
+							 <ul>
+                                 <li>
+                                    <div><a class="text-secondary" href="/skills" target="_blank">Universal Skills Set <i class="fe fe-external-link"></i></a></div>
+                                 </li>
+                                 <li class="mt-2">
+                                    <div><a class="text-secondary" href="/explorer" target="_blank">Skills Explorer (Search) <i class="fe fe-external-link"></i></a></div>
+                                 </li>
+                            </ul>
+						</div>
+					</div>
+				</div>
+							
+			</div>
+		</div>
+	</section>
+
+   <section>
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-md-5 pb-5">
+
+				<h2 class="mt-6 mb-3 fw-bold text-secondary">
+					Base On-Chain Assets
+				</h2>
+				<div class="text-secondary">
+					The SDIs & SDAs tokens as on-chain assets.
+				</div>
+				<div class="container">
+					<div class="row border-bottom border-gray-300 pt-2 pb-2 fw-bold text-muted">
+						<div class="col-1 text-center">Type</div>
+						<div class="col-5">Description</div>
+                        <div class="col-6">On-Chain References</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDI</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Skill Types</div>
+                            <ul class="text-secondary small">
+                                <li>Type (Root)</li>
+                                <li>Skill</li>
+                                <li>Skill Source</li>
+                                <li>Skill Domain</li>
+                                <li>Skill Level</li>
+                                <li>Skill Capacity</li>
+                                <li>Community Organisation</li>
+                                <li>Community Member</li>
+                                <li>Community Resource</li>
+                                <li>Project Template</li>
+                                <li>Learning Template</li>
+                                <li>Learning Policy</li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/transaction/e520946fb636e5464b45b342394bc2c82f54cedb8459397062ae431c8f7d9398" target="_blank">Transaction that created (minted) the Types as On-Chain Assets <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/transaction/e520946fb636e5464b45b342394bc2c82f54cedb8459397062ae431c8f7d9398" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sdi-identity-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+					<div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDI</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Community Base Skill</div>
+                            <ul class="text-secondary small">
+                                <li>
+							        49bd8274-25dc-4f72-b762-7a0a0b435dbc
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/token/6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a173439626438323734323564633466373262373632376130613062343335646263" target="_blank">Skill as On-Chain Asset <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/token/6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a173439626438323734323564633466373262373632376130613062343335646263" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sdi-identity-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDI</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Foundation & Community</div>
+                            <ul class="text-secondary small">
+                                <li>
+							        Community Organisations
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/transaction/0020ce556e166d2f484ecea38d89dd85eccc96d788512876e078c6646a86e202?tab=tokenmint" target="_blank">Organisations as On-Chain Assets <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/transaction/0020ce556e166d2f484ecea38d89dd85eccc96d788512876e078c6646a86e202?tab=tokenmint" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sdi-identity-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDI</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Learning Partner Skills</div>
+                            <ul class="text-secondary small">
+                                <li>
+							       Levels 1 to 20
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/transaction/788d56d918827320e54885d4442c82ecadcb6e93a3426f36cd64ecb4016e3b11?tab=tokenmint" target="_blank">Skills (Levels 01 to 05) as On-Chain Assets <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/transaction/788d56d918827320e54885d4442c82ecadcb6e93a3426f36cd64ecb4016e3b11?tab=tokenmint" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sda-achievement-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDA</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Community;</div>
+                            <div><em>Can Create Community</em> Achievement.</div>
+                            <ul class="text-secondary small">
+                                <li>
+							      Allocation of <em>selfdriven Community Base</em> skill by selfdriven Foundation to selfdriven Commmunity.
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/token/14302595916298c0ba104801034dbc784d1ece283c943dfab0524d0d6262646464336337656465633433613239636466643138326532643266343763?tab=minttransactions" target="_blank">Achievement & Skill as On-Chain Asset <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/token/14302595916298c0ba104801034dbc784d1ece283c943dfab0524d0d6262646464336337656465633433613239636466643138326532643266343763?tab=minttransactions" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sda-achievement-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDA</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Community;</div>
+                            <div><em>Can Issue Achievements</em> Achievement.</div>
+                            <ul class="text-secondary small">
+                                <li>
+							        bbddd3c7-edec-43a2-9cdf-d182e2d2f47c
+                                </li>
+                                <li class="mt-1">
+							      Allocation of <em>selfdriven Learning Partner Levels 1 to 20</em> skills by selfdriven Foundation to selfdriven Commmunity.
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/token/14302595916298c0ba104801034dbc784d1ece283c943dfab0524d0d3764323931663161353561613439613062363764366361623266336131393135" target="_blank">Achievement as On-Chain Asset <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/token/14302595916298c0ba104801034dbc784d1ece283c943dfab0524d0d3764323931663161353561613439613062363764366361623266336131393135" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sda-achievement-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDI</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Octo</div>
+                            <ul class="text-secondary small">
+                                <li>
+							        ddea7071-c37b-4c3f-ab69-603870f5c9f6
+                                </li>
+                                 <li class="mt-1">
+                                    <a class="text-secondary" href="/octo">Say Hello To Octo! <i class="fe fe-arrow-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/token/6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a176464656137303731633337623463336661623639363033383730663563396636" target="_blank">Octo identity as On-Chain Asset <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/token/6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a176464656137303731633337623463336661623639363033383730663563396636" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sdi-identity-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+
+                    <div class="row border-bottom border-gray-300 pt-2 pb-2">
+						<div class="col-1 text-center">SDA</div>
+						<div class="col-5">
+                            <div class="fw-bold">selfdriven Octo;</div>
+                            <div><em>Can Issue Achievement</em> Achievement.</div>
+                            <ul class="text-secondary small">
+                                <li>
+							        6e1635bd-278b-40ad-898e-e3af12e70dd8
+                                </li>
+                                <li class="mt-1">
+							      Allocation of <em>selfdriven Learning Partner Levels 1 to 20</em> skill by selfdriven Commmunity to selfdriven Octo, so can issue learning-partner achievements (skills) on behalf of the selfdriven Community - so they can then verify achievements/skills to learners.
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-6">
+                            <ul class="d-none">
+                                <li class="mt-2">
+                                    <div><a class="text-secondary" href="https://cardanoscan.io/token/14302595916298c0ba104801034dbc784d1ece283c943dfab0524d0d3665313633356264323738623430616438393865653361663132653730646438" target="_blank">Achievement as On-Chain Asset <i class="fe fe-external-link"></i></a></div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-light btn-pill shadow lift p-1" href="https://cardanoscan.io/token/14302595916298c0ba104801034dbc784d1ece283c943dfab0524d0d3665313633356264323738623430616438393865653361663132653730646438" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sda-achievement-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+                
+				</div>
+							
+			</div>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-md-5 pb-5">
+
+				<h2 class="mt-6 mb-3 fw-bold text-secondary">
+					Base (Root of Trust) Assets
+				</h2>
+				<div class="text-secondary fw-bold">
+					The Public Keys & SDVs as cryptographic basis for trust.
+				</div>
+				<div class="text-secondary mt-2">
+					Start with the selfdriven Foundation Public Key and "follow the curve" for trust.
+				</div>
+				<div class="container mt-4">
+					
+					 <div class="row border-bottom border-gray-300 pt-2 pb-6">
+						<div class="col-3">
+                            <div class="fw-bold">selfdriven Foundation</div>
+                            <ul class="text-secondary small">
+                                <li>
+							        Community Organisation
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-9">
+                           	<div>
+								<a href="#selfdriven-foundation-public-key" data-toggle="collapse">Show Public Key</a>
+							</div>
+							<div class="collapse" id="selfdriven-foundation-public-key" style="word-break: break-all; font-family: monospace;">
+								<div>
+									-----BEGIN PUBLIC KEY-----
+								</div>
+								<div>
+									MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3OYqTDGUsRnIxpX3tIoJ
+								</div>
+								<div>
+									vpEWRpJeR+mBc5cowwXycWVI9WxavK0XNyEMKCKIc20GD3MKFaMAFpctx4ZSqEh4
+								</div>
+								<div>
+									rGIbHWnRHUs5BDXdnXrq4loOq9RdRVqFtXK53V9LuFpSiu/QZJwfyrmWR8Vc7mgv
+								</div>
+								<div>
+									OqSPvIc9lg/5HUui5lj9Kud6QQ8iX1hJ4IZixpOHyT1xLj4a9XNgPRmM4MG6eXMA
+								</div>
+								<div>
+									q5aIlmLGmyJiHXShrz2N0YkzJWzHXPMgvlqTo2kFPti4+EVyuTNBYHXV5F7zbFFO
+								</div>
+								<div>
+									bNl80f3vijpdRPhaDkQq5eG4GnsFndk2+oeM6UXwGqhfaIAQzS5Ftz60LqmIwk5F
+								</div>
+								<div>
+									kwIDAQAB
+								</div>
+								<div>
+									-----END PUBLIC KEY-----
+								</div>
+							</div>
+                            <a class="btn btn-light btn-pill shadow lift p-1 mt-4" href="https://cardanoscan.io/transaction/38d65e357be5674d6b9cdaac8179f0555dbbc974b4ce67cba6341781f3bbfc65?tab=metadata" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sdv-verify-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+
+					<div class="row border-bottom border-gray-300 pt-2 pb-6">
+						<div class="col-3">
+                            <div class="fw-bold">selfdriven Community</div>
+                            <ul class="text-secondary small">
+                                <li>
+							        Community Organisation
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-9">
+                           	<div>
+								<a href="#selfdriven-community-public-key" data-toggle="collapse">Show Public Key</a>
+							</div>
+							<div class="collapse" id="selfdriven-community-public-key" style="word-break: break-all; font-family: monospace;">
+								<div>
+									-----BEGIN PUBLIC KEY-----
+								</div>
+								<div>
+									MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvbFFTqxfrkzg9GmXX0iM
+								</div>
+								<div>
+									YHSa7kD0f6NmyqnSzPhbzLT6BlGYI3Oz8vqYABY3npnLp3y4sa2Qoer6VYbNQABH
+								</div>
+								<div>
+									kCWqNQcxOmkeZC9SvfkQx+2OoSBtlrNTZxpa+pr7wRcZODG5kra9cDO2riI9XRuS
+								</div>
+								<div>
+									5F5HbhUi6IBp2GBr+zvXtup4nY4cz/CRUZLYN6JgZ9zIPlV32fX6olvhdZwjilWU
+								</div>
+								<div>
+									mwp8LhlyR+kS/RZ4ey0RWphFsrlQAR7ff44riNNuQQmOvbGLjvg3Y7tPR/Hk7FYG
+								</div>
+								<div>
+									D/40TNes1qwlxsilCf91Qxw65pilmFu6ByTAs5yxwwyGo9PP+L5qlZq7gvUp5LrS
+								</div>
+								<div>
+									zwIDAQAB
+								</div>
+								<div>
+									-----END PUBLIC KEY-----
+								</div>
+							</div>
+                            <a class="btn btn-light btn-pill shadow lift p-1 mt-4" href="https://cardanoscan.io/transaction/ffcc02384d9172d2054ffc5a51b5b7e1286e220fbe05d932456fe689f3651910?tab=metadata" target="_blank">
+                                <img src="/site/2098/selfdriven-token-sdv-verify-on-chain.png" class="text-secondary me-1" style="max-height: 2.2rem !important;"><i class="fe fe-external-link me-1"></i>
+                            </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section class="bg-black">
+		<div class="container py-6 py-md-8 border-top border-bottom border-gray-900-50">
+			<div class="row align-items-center">
+				<div class="col-12 col-md">
+
+					<!-- Heading -->
+					<h3 class="fw-bold text-white mb-1">
+						Identity
+					</h3>
+
+					<!-- Text -->
+					<p class="fs-lg text-muted mb-5 mb-md-0">
+						selfdriven Identity
+					</p>
+
+				</div>
+				<div class="col-12 col-md-auto">
+
+					<!-- Button -->
+					<a href="/identity" class="btn btn-primary lift" style="width: 140px;">
+						Open
+					</a>
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+
+	<section class="bg-black">
+		<div class="container py-6 py-md-8 border-top border-bottom border-gray-900-50">
+			<div class="row align-items-center">
+				<div class="col-12 col-md">
+
+					<!-- Heading -->
+					<h3 class="fw-bold text-white mb-1">
+						Tokens
+					</h3>
+
+					<!-- Text -->
+					<p class="fs-lg text-muted mb-5 mb-md-0">
+						selfdriven "On-Chain" tokens/assets.
+					</p>
+
+				</div>
+				<div class="col-12 col-md-auto">
+
+					<!-- Button -->
+					<a href="/tokens" class="btn btn-primary lift" style="width: 140px;">
+						Open
+					</a>
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+	<section class="bg-black">
+		<div class="container py-6 py-md-8 border-top border-bottom border-gray-900-50">
+			<div class="row align-items-center">
+				<div class="col-12 col-md">
+
+					<!-- Heading -->
+					<h3 class="fw-bold text-white mb-1">
+						Skills
+					</h3>
+
+					<!-- Text -->
+					<p class="fs-lg text-muted mb-5 mb-md-0">
+						Explore the universal skills set.
+					</p>
+
+				</div>
+				<div class="col-12 col-md-auto">
+
+					<!-- Button -->
+					<a href="/explorer" class="btn btn-primary lift" style="width: 140px;">
+						Explorer
+					</a>
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+	<section class="bg-black">
+		<div class="container py-6 py-md-8 border-top border-bottom border-gray-900-50">
+			<div class="row align-items-center">
+				<div class="col-12 col-md">
+
+					<!-- Heading -->
+					<h3 class="fw-bold text-white mb-1">
+						Help
+					</h3>
+
+					<!-- Text -->
+					<p class="fs-lg text-muted mb-5 mb-md-0">
+						Talk to us about any help you may need.
+					</p>
+
+				</div>
+				<div class="col-12 col-md-auto">
+
+					<!-- Button -->
+					<a href="mailto:hello@selfdriven.foundation" class="btn btn-primary lift" style="width: 140px;">
+						Contact Us
+					</a>
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+	<section class="bg-black">
+		<div class="container py-6 py-md-8 border-top border-bottom border-gray-900-50">
+			<div class="row align-items-center">
+				<div class="col-12">
+
+					<!-- Heading -->
+					<h3 class="fw-bold text-white mb-1">
+						Decentralised Identifiers (DIDs)
+					</h3>
+
+					<!-- Text -->
+					<p class="fs-lg text-muted mb-5 mb-md-0">
+						"URL-based identifiers (URIs) in use on the Web today (2019) require that the identifier be leased from an authority such as a Domain Name Registrar. A Decentralized Identifier (DID) is an identifier that does not need to be leased; its creation and use is possible without a central authority to manage it. The advent of Blockchains and Decentralized Ledger Technologies have led to other innovations that support this new type of decentralized URI. DIDs have various benefits over more traditional URIs." - <em>W3C</em> - <a href="https://www.w3.org/2020/12/did-wg-charter.html" target="_blank">More...</a>
+					</p>
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+
+	<!-- FOOTER -->
+	<footer class="py-7 bg-black">
+		<div class="container">
+			<div class="row mb-2">
+				<div class="col-12 mb-2">
+					<a href="https://iohk.io/en/blog/posts/2022/09/08/advancing-digital-identity-through-did-core-specification/" target="_blank">IOG; DIDs <i class="fe fe-external-link ms-1"></i></a>
+				</div>
+				<div class="col-12 mb-2">
+					<a href="https://atalaprism.io/" target="_blank">ATALA; PRISM <i class="fe fe-external-link ms-1"></i></a>
+				</div>
+				<div class="col-12 mb-2">
+					<a href="https://iamx.id/" target="_blank">IAMX; Own Your Identity <i class="fe fe-external-link ms-1"></i></a>
+				</div>
+				<div class="col-12 mb-8">
+					<a href="https://github.com/cardano-foundation/CIPs/pull/294" target="_blank">CIP-0066 <i class="fe fe-external-link ms-1"></i></a>
+				</div>
+			</div>
+
+			<div class="row mb-2">
+				<div class="col-12">
+					<a href="/the-shift">The science and technology that can shift our society</a>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col-12">
+					<a href="/">More about the selfdriven Foundation</a>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col-12">
+					<a href="https://drive.google.com/drive/u/0/folders/10KSUbd_rJRE-ieU4t3hjgwZUXHlSYd1F"
+						target="_blank">Shared folder with more about selfdriven, including the whitepaper</a>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col-12">
+					<a href="https://www.selfdriven.cloud" target="_blank">The selfdriven Cloud Service & app</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JAVASCRIPT -->
+	<!-- Map JS -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+	<!-- Vendor JS -->
+	<script src="/site/2033/landkit.vendor.bundle.js"></script>
+
+	<!-- Theme JS -->
+	<script src="/site/2033/landkit.theme.bundle.js"></script>
+	<script src="/site/2030/jquery-3.2.1.min.js"></script>
+	<script src="/site/2098/2097.app-1.0.0.js"></script>
+	<script src="/site/1987/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!--
+    A learn-by-example "connect to Cardano wallet" site.
+    
+    Code is free to use (CC0), but it is only provided as to aid learning about connecting to the Cardano blockchain/wallet.
+    To that purpose it uses Javascript in its simplest form, so as to keep focus on the blockchain/wallet conceptual learning.
+    Recommend using resources @ https://buildingoncardano.dev if plan to build a production-grade app.
+
+    I'm working in collaboration with @selfdrivenOcto (https://slfdrvn.io/octo) on this.
+    If you have any issues please contact twitter.com/selfdrivenOcto.
+    Or join the BuildingOnCardano.dev Discord server and ask for help!
+    https://buildingoncardano.dev
+
+    Thank you,
+    Turlia.
+
+    We have an opportunity
+    to descentralise
+    & rehumanise our society
+-->
+<html lang="en" style="background-color: #492c11;">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="shortcut icon" href="/site/2152/2152.icon-1.0.1.png" type="image/png" />
+        <link rel="stylesheet" href="/site/2033/landkit.libs.bundle.css" />
+        <link rel="stylesheet" href="/site/2033/landkit.theme.bundle.css" />
+        <link rel="stylesheet" href="/site/2152/dsociety.style-1.0.0.css" />
+        <link rel="stylesheet" href="/site/2098/entityos.util-4.4.17.css" />
+
+        <title>dSociety Learn</title>
+    </head>
+
+    <body class="item background-cover" style="background-size: cover !important; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/site/2152/2152.cover-1.0.1.png')">
+        <div class="text-center pt-8">
+            <a href="/" style="font-family: PT Mono, monospace; color:#ff943d; font-size:4rem;">dSociety</a>
+        </div>
+       
+        <div class="text-center pt-4">
+            <button id="learn-connect" type="button" class="btn btn-outline-warning disabled" data-container="body" data-toggle="popover" data-placement="bottom">
+                Connect
+            </button>
+        </div>
+
+         <div id="learn-view">
+            <div class="text-center mt-6" style="font-family: PT Mono, monospace; font-size: 1rem; color:#795548;">Initialising</div>
+         </div>
+
+        <div id="learn-info-view" class="text-center pt-10" style="bottom: 40px; position: absolute; width:100%;">
+            <div style="background-color:rgba(0,0,0,0.5); border-radius: 6px; padding:16px;" class="mx-auto w-75">
+                <div style="font-family: PT Mono, monospace; font-size: 1rem; color:#795548;">
+                    To see the code & dev console logs, right click, click <em>Inspect</em><br/>& click the <em>Sources</em> or <em>Console</em> tab.
+                </div>
+                <div class="mt-3">
+                    <a href="https://buildingoncardano.dev" target="_blank" style="font-family: PT Mono, monospace; font-size: 1rem; color:#795548;">Built using resources indexed @ BuildingOnCardano.dev</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <!-- Vendor JS -->
+	<script src="/site/2033/landkit.vendor.bundle.js"></script>
+
+	<!-- Theme JS -->
+	<script src="/site/2033/landkit.theme.bundle.js"></script>
+
+	<script src="/site/2030/jquery-3.2.1.min.js"></script>
+	<script src="/site/1901/lodash.min.js"></script>
+	<script src="/site/1901/moment.min.js"></script>
+	<script src="/site/1901/numeral.min.js"></script>
+    <script src="/site/1987/popper.min.js"></script>
+    <script src="/site/2152/cbor.js"></script>
+
+	<script src="/site/2152/entityos-3.9.6.js"></script>
+	<script src="/site/2152/entityos.util-5.0.0.js"></script>
+    <script src="/site/1987/bootstrap.min.js"></script>
+
+    <script type="module" src="/site/2152/dsociety.entityos.learn-1.0.0.js"></script>
+
+</html>

@@ -1,0 +1,1860 @@
+<!doctype html>
+<html lang="en" style="background-color: #f4f4f4;">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="/site/2149/2149.favicon-1.0.5.png" type="image/png" />
+
+	<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+	<link rel="stylesheet" href="/site/2033/landkit.libs.bundle.css" />
+	<link rel="stylesheet" href="/site/2033/landkit.theme.bundle.css" />
+	<link rel="stylesheet" href="/site/2033/2032.style-1.0.0.css" />
+
+	<title>#BuildingOnCardano - A Collection of Development Resources</title>
+	<meta name="description" content="A Collection of Development Resources for Building on Cardano." />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="buildingoncardano.dev" />
+	<meta property="og:description" content="A Collection of Development Resources for Building on Cardano." />
+	<meta property="og:url" content="https://buildingoncardano.dev/" />
+	<meta property="og:site_name" content="buildingoncardano.dev" />
+	<meta property="article:modified_time" content="2023-01-31T20:00:00+00:00" />
+	<meta property="og:image" content="https://buildingoncardano.dev/site/2149/2149.cover-1.0.1.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="393" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="buildingoncardano.dev" />
+	<meta name="twitter:description" content="A Collection of Development Resources for Building on Cardano." />
+	<meta name="twitter:image" content="https://buildingoncardano.dev/site/2149/2149.cover-1.0.1.png" />
+	<meta name="generator" content="EntityOS" />
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5EQMWQGH8W"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-5EQMWQGH8W');
+</script>
+
+<!--
+    To be added:
+
+-->
+
+<body>
+
+	<!-- NAVBAR -->
+	<nav class="d-none navbar navbar-expand-lg navbar-light bg-white">
+		<div class="container-fluid">
+
+			<!-- Brand -->
+			<a class="d-none navbar-brand" href="/">
+				<img src="/site/2033/2032.logo-1.0.0.png" class="navbar-brand-img" alt="...">
+			</a>
+
+			<!-- Toggler -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Collapse -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+
+				<!-- Toggler -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fe fe-x"></i>
+				</button>
+
+				<!-- Navigation -->
+				<ul class="navbar-nav">
+				</ul>
+
+				<!-- Button -->
+				<a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://app.selfdriven.cloud"
+					target="_blank">
+					App
+				</a>
+
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- WELCOME -->
+	<section data-jarallax data-speed=".8" class="pt-9 pb-8 overlay overlay-black overlay-70 bg-cover jarallax"
+		style="background-image: url(/site/2149/2149.cover-1.0.1.png);">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 text-center">
+
+					<a class="d-none" href="/tech"><img src="/site/2097/selfdriven-logo-with-line.png"
+							class="img-responsive w-50"></a>
+					<h1 class="display-4 fw-bold" style="color:#9ECBED">
+						#BuildingOnCardano
+					</h1>
+
+					<!-- Text -->
+					<h2 class="text-white-75 mb-5 fw-bold">
+						A Collection of Development Resources
+					</h2>
+
+					<p class="mt-5 fw-bold lead mb-0 text-white-75">
+						Start Building On Cardano & Help Create Our Next Society!
+					</p>
+
+				</div>
+			</div>
+		</div> <!-- / .container -->
+	</section>
+
+	<section class="pb-8 pt-6">
+		<div class="container">
+
+			<div class="row justify-content-center mb-6 text-center">
+				<div class="col-12">
+					<p class="lead fw-bold w-md-75 mx-auto">
+						An index of Cardano community projects, tools, channels, people & services that will help you
+						get started and beyond!
+					</p>
+					<div class="text-secondary w-75 text-center mx-auto">
+						I, selfdrivenOcto, have no affiliation with the projects, they are just listed to help you with
+						#BuildingOnCardano.
+					</div>
+					<div class="text-secondary w-75 text-center mx-auto mt-4">
+						I'm constantly adding to this index, so if you think I should add something that directly
+						relates to building on Cardano (i.e. not investment, DeFi, price etc) let me know at ...
+					</div>
+					<div class="text-secondary w-75 text-center mx-auto mt-2">
+						<i class="fe fe-twitter me-1 text-secondary"></i><a href="https://twitter.com/@selfdrivenOcto"
+							target="_blank" class="text-secondary">@selfdrivenOcto</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row justify-content-center">
+
+				<div class="col-12 col-md-4 mt-8 mt-md-0">
+					<a href="https://developers.cardano.org/docs/get-started" target="_blank"
+						class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.cardano.developers.png"
+									class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-6 pb-4">
+								<div class="text-secondary">Cardano Getting Started for Developers</div>
+								<div class="mt-1">
+									<a class="ms-1" data-toggle="collapse" role="button" href="#cardano-youtube">
+										<i class="fe fe-youtube text-muted" data-bs-toggle="tooltip"
+											data-bs-placement="top" title=""
+											data-bs-original-title="Show YouTube Videos"></i>
+									</a>
+									<div class="collapse" id="cardano-youtube">
+										<div>
+											<a class="text-secondary small"
+												href="https://www.youtube.com/watch?v=Ja9D0kpksxw"
+												target="_blank">Charles Whiteboard Video</a>
+										</div>
+									</div>
+								</div>
+								<div class="row border-top border-gray-900-50 mt-3 pt-4">
+                                      <a class="text-secondary"
+												href="https://github.com/input-output-hk/cardano-node/blob/master/doc/reference/cardano-node-cli-reference.md/"
+												target="_blank">Cardano Node CLI Reference</a>  
+                                </div>
+							</div>
+
+							
+
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-0">
+					<a href="https://gimbalabs.com/gimbalgrid" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.gimbalabs.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-6 pb-2">
+								<div>People Learning & Innovating Together</div>
+							</div>
+
+                            <div class="card-body text-center lead text-secondary pt-0">
+                                <hr />
+                                <div>
+                                     <a class="text-secondary"
+                                    href="https://plutuspbl.io" target="_blank">
+                                        Plutus Project-Based Learning Course</a>
+                                </div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-0">
+					<a href="https://meshjs.dev" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.martify.mesh.png"
+									class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary mt-4">
+								<div class="text-secondary">Build your application with ease on Cardano with MeshJS
+								</div>
+								<div class="mt-1">
+									<a class="ms-1" data-toggle="collapse" role="button" href="#meshjs-youtube">
+										<i class="fe fe-youtube text-muted" data-bs-toggle="tooltip"
+											data-bs-placement="top" title=""
+											data-bs-original-title="Show YouTube Videos"></i>
+									</a>
+									<div class="collapse" id="meshjs-youtube">
+										<div>
+											<a class="text-secondary small"
+												href="https://www.youtube.com/watch?v=hzMH2LnzZ90" target="_blank">Learn
+												Cardano</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://lucid.spacebudz.io" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.lucid.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-8">
+								<div>Build on Cardano the easy way</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://github.com/HarmonicLabs/plu-ts" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.harmonic.labs.plu-ts.png"
+									class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div>DSL for smart contracts creation with a library for transactions, all in Typescript
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://github.com/Hyperion-BT/Helios" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.helios.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-8">
+								<div class="text-secondary">Helios is a non-Haskell alternative to Plutus that compiles
+									to Plutus-Core</div>
+								<div class="mt-1">
+									<a class="ms-1" data-toggle="collapse" role="button" href="#helios-youtube">
+										<i class="fe fe-youtube text-muted" data-bs-toggle="tooltip"
+											data-bs-placement="top" title=""
+											data-bs-original-title="Show YouTube Videos"></i>
+									</a>
+									<div class="collapse" id="helios-youtube">
+										<div>
+											<a class="text-secondary small"
+												href="https://www.youtube.com/watch?v=kfNgze5KEQw" target="_blank">Learn
+												Cardano</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://aiken-lang.org" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.aiken.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div class="text-secondary">
+									Programming language & toolchain for developing smart contracts
+								</div>
+								<div class="mt-1">
+									<a class="ms-1" data-toggle="collapse" role="button" href="#aiken-lang-youtube">
+										<i class="fe fe-youtube text-muted" data-bs-toggle="tooltip"
+											data-bs-placement="top" title=""
+											data-bs-original-title="Show YouTube Videos"></i>
+									</a>
+									<div class="collapse" id="aiken-lang-youtube">
+										<div>
+											<a class="text-secondary small"
+												href="https://www.youtube.com/watch?v=JWmvVJz_X1M" target="_blank">Learn
+												Cardano</a>
+										</div>
+										<div>
+											<a class="text-secondary small"
+												href="https://www.youtube.com/watch?v=9wbQ33uzwsc"
+												target="_blank">NerdOut</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://github.com/OpShin" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.opshin.png"
+									class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div class="text-secondary">OpShin, a Pythonic programming language for Smart Contracts
+								</div>
+                                <div class="mt-1">
+									<a class="ms-1" data-toggle="collapse" role="button" href="#opshin-youtube">
+										<i class="fe fe-youtube text-muted" data-bs-toggle="tooltip"
+											data-bs-placement="top" title=""
+											data-bs-original-title="Show YouTube Videos"></i>
+									</a>
+									<div class="collapse" id="opshin-youtube">
+										<div>
+											<a class="text-secondary small"
+												href="https://www.youtube.com/watch?v=_J6uTzdiDYU" target="_blank">dApp
+												Central</a>
+										</div>
+                                        <div>
+											<a class="text-secondary small"
+												href="https://youtu.be/JXmTpLZnHjU" target="_blank">Learn Cardano</a>
+										</div>
+									</div>
+								</div>
+								<hr />
+								<div class="mt-2">
+									<a class="text-secondary" href="https://github.com/ImperatorLang/hebi"
+										target="_blank">& hebi (faster)</a>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://github.com/Python-Cardano/pycardano" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.pycardano.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div class="text-secondary">A Cardano library written in Python for creating and signing
+									transactions</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://github.com/CardanoSharp/cardanosharp-wallet" target="_blank"
+						class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.cardanosharp-wallet.png"
+									class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div class="text-secondary">A .NET library for creating wallets & building transactions
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+
+
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://marlowe-finance.io" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.marlowe.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-8">
+								<div>The language made for finance</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://www.joget.com/cardano-blockchain.html" target="_blank"
+						class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.joget.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-8">
+								<div>Create a Low-code dApp Using the Joget DX</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://demeter.run" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.demeter.run.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div>A cloud environment with all the tools for building your dApp</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://txpipe.io/" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.tx-pipe.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div>Open source tools and infrastructure for Cardano developers</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://blockfrost.io/" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.blockfrost.png" class="img-responsive rpounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-8">
+								<div>Your gateway (api) to the Cardano ecosystem</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://tangocrypto.com/" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.tangocrypto.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary">
+								<div>A suite of APIs and developer tools to access the Cardano network</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://dandelion.link" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.dandelion.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-7">
+								<div>Cardano APIs as a Community Service. Free. Forever.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://www.koios.rest/" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.koios.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-7">
+								<div>A consistent query layer for developers to build upon Cardano</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://ogmios.dev" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.ogmios.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-7">
+								<div>A lightweight bridge interface for cardano-node</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://cardanobeam.app/" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2099/2100.cardanobeam.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-6">
+								<div>GPS based Assets on the Cardano Blockchain</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://intelliada.bloxbean.com" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg" style="height:100%;">
+							<div class="card-header p-0">
+								<img src="/site/2149/2149.bloxbean.png" class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-6">
+								<div>A tool for developers to interact with Cardano directly from their IDE</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<a href="https://cardanopress.io/" target="_blank" class="text-decoration-none">
+						<div class="card lift shadow-lg">
+							<div class="card-header p-0">
+								<img src="/site/2149/2100.cardanopress-2.png"
+									class="img-responsive rounded-top img-fluid">
+							</div>
+							<div class="card-body text-center lead text-secondary pt-7">
+								<div class="text-secondary mb-4 fw-bold">
+									Connecting WordPress<br />& Cardano
+								</div>
+								<div class="text-secondary mb-4 mt-6">
+									Create engaging & unique Web3 experiences with CardanoPress with no development
+									knowledge
+								</div>
+							</div>
+							<div class="card-body text-center lead text-secondary pt-4 border-top border-gray-900-50">
+								<div class="mt-4"><a class="text-secondary" href="https://b11xm50.myraidbox.de"
+										target="_blank">& Some Use-Case Templates</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<div class="row">
+						<div class="col-12">
+							<a href="https://mercurychat.io/integrate" target="_blank" class="text-decoration-none">
+								<div class="card lift shadow-lg" style="height:100%;">
+									<div class="card-header p-0">
+										<img src="/site/2099/2100.mercurychat.png"
+											class="img-responsive rounded-top img-fluid">
+									</div>
+									<div class="card-body text-center lead text-secondary pt-6">
+										<div>Integrate Mercury Chat into your Cardano dApp</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-12 mt-6">
+							<a href="https://github.com/spacebudz/nebula" target="_blank" class="text-decoration-none">
+								<div class="card lift shadow-lg">
+									<div class="card-header p-0">
+										<img src="/site/2149/2149.nebula.png"
+											class="img-responsive rounded-top img-fluid">
+									</div>
+									<div class="card-body text-center lead text-secondary pt-6">
+										<div>A Cardano NFT marketplace contract for individual projects</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 mt-8 mt-md-9">
+					<div class="card lift shadow-lg">
+						<div class="card-header p-0">
+							<img src="/site/2149/2149.more.png" class="img-responsive rounded-top img-fluid">
+						</div>
+						<div class="card-body text-center lead text-secondary pt-4">
+							<div>
+								<a href="https://github.com/Plutonomicon/cardano-transaction-lib" target="_blank"
+									class="text-decoration-none text-secondary">Purescript Library
+									(cardano-transaction-lib)</a>
+							</div>
+							<div class="mt-3">
+								<a href="https://github.com/dquadrant/kuber" target="_blank"
+									class="text-decoration-none text-secondary">Haskell library for balancing
+									transactions (dquadrant/kuber)</a>
+							</div>
+							<div class="mt-3">
+								<a href="https://github.com/cent-development/basic-smart-contracts" target="_blank"
+									class="text-decoration-none text-secondary">basic-smart-contracts</a>
+							</div>
+
+                            <div class="mt-3">
+								<a href="https://github.com/nau/scalus" target="_blank"
+									class="text-decoration-none text-secondary">Scalus (JVM/JS)</a>
+							</div>
+							<div class="text-center lead mt-5" style="color:#5731F2;">
+								More dev tools listed @
+							</div>
+							<div class="text-center mt-3">
+								<a href="https://www.cardanocube.io/collections/developer-tools" target="_blank"
+									class="text-secondary lead">CardanoCube <i class="fe fe-external-link"></i></a>
+							</div>
+							<div class="text-center mt-3">
+								<a href="https://www.essentialcardano.io/article/a-list-of-community-built-developer-tools-on-cardano"
+									target="_blank" class="text-secondary lead">Essential Cardano <i
+										class="fe fe-external-link"></i></a>
+							</div>
+							<div class="text-center mt-3">
+								<a href="https://cardano.fans/our-work"
+									target="_blank" class="text-secondary lead">Cardano Fans <i
+										class="fe fe-external-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="d-none row justify-content-center">
+				<div class="col-12 mt-8 mt-md-9 mb-0">
+					<div class="text-center text-dark lead">
+						& check out the dev tools listed at ...
+					</div>
+					<div class="text-center mt-5">
+						<a href="https://www.cardanocube.io/collections/developer-tools" target="_blank"
+							class="text-secondary lead">CardanoCube <i class="fe fe-external-link"></i></a>
+					</div>
+					<div class="text-center mt-3">
+						<a href="https://www.essentialcardano.io/article/a-list-of-community-built-developer-tools-on-cardano"
+							target="_blank" class="text-secondary lead">Essential Cardano <i
+								class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center mt-3">
+
+				<div class="col-12 col-md-6 mt-8 mt-md-9 mb-4">
+					<div class="card lift shadow-lg" style="height:100%;">
+
+						<div class="card-body text-center lead text-secondary">
+							<h2 class="text-secondary mb-4"><i class="fe fe-heart me-1" style="color: pink"></i>
+								Share The Love</h2>
+							<div>
+								A lot of the projects are self-funded, so check if they have a donations
+								address/adahandle to support their ongoing work!
+							</div>
+                            <div class="mt-2">
+                                & some projects are listed @ <a href="https://kreate.community" target="_blank" class="text-secondary">Kreate <i class="fe fe-external-link"></i></a>
+                            </div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 mt-8 mt-md-9 mb-4" id="guides">
+					<div class="card lift shadow-lg" style="height:100%;">
+						<div class="card-body text-center lead text-secondary px-2">
+							<h2 class="text-secondary mb-4"><i class="fe fe-book me-1" style="color: lightblue;"></i>
+								Guides</h2>
+							<div>
+								<a href="https://meshjs.dev/guides" target="_blank" class="text-secondary">Getting
+									Started By Mesh</a>
+							</div>
+
+							<div class="mt-2">
+								<a href="https://gimbalabs.com/pbl/csk" target="_blank" class="text-secondary">Starter
+									Kits By Gimbalabs</a>
+							</div>
+
+							<div class="mt-2">
+								<a href="https://armada-alliance.gitbook.io/cardano-blockchain-developer-cookbook/"
+									target="_blank" class="text-secondary">Cookbook By PGWAD</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="text-center mt-9 mb-0">
+					<h2 style="color:#d04be0;">I'm new to Cardano development, where do I start?</h2>
+				</div>
+
+				<div class="col-12 col-md-12 mt-2 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<i class="fe fe-book me-1 text-muted"></i><a href="#guides" class="text-secondary">Check out the
+							guides above <i class="fe fe-arrow-up"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2 w-md-75">
+						<a href="https://dsociety.io/learn" target="_blank" class="text-secondary">Turlia has created
+							some "foot-hold" code to show the basics of interacting with a wallet at dsociety.io/learn
+							<i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<a href="https://blocksplained.substack.com" target="_blank"
+							class="text-secondary">BlockSplained Developer Diaries; a journey to becoming a Cardano Dev
+							<i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2 w-md-75">
+						<a href="https://gimbalabs.com/gimbalgrid" target="_blank" class="text-secondary">The super
+							experienced and supportive team at Gimbalabs have a stack of learning resources & run weekly
+							live coding sessions! <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2 w-md-50">
+						<a href="https://meshjs.dev/starter-templates" target="_blank" class="text-secondary">If you are
+							an experienced React/Next.js coder, then check out the MeshJS Starter-Kits <i
+								class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2 w-md-50">
+						<a href="https://github.com/OpShin/opshin-example" target="_blank"
+							class="text-secondary">If you are an experienced Python coder, then check out this OpShin
+							example <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2 w-md-50">
+						<a href="https://github.com/OpenLitterMap/openlittermap-web/blob/cf196bfeb3847a8035bef8550af0c78e7dc1c140/littercoin/README.md" target="_blank"
+							class="text-secondary">Step by step project flow from problem statement to coded app <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<i class="fe fe-twitter me-1 text-muted"></i><a
+							href="https://twitter.com/i/lists/1611776385936412673" target="_blank"
+							class="text-secondary">Follow the BuildingOnCardano.dev list <i
+								class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<a href="https://cardano.stackexchange.com" target="_blank" class="text-secondary">Check out
+							Cardano.stackexchange.com <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+
+				<div class="text-center mt-6 mb-0">
+					<h2 style="color:#d04be0;">Dev Discussions, Chatting, Get Help ...</h2>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-2">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<a href="https://vyra.io/room/buildingoncardano-dev" target="_blank" class="text-secondary">Join
+							the BuildingOnCardano.dev Room on vyra.io (Beta) <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<a href="https://discord.gg/ze5xh884ta" target="_blank" class="text-secondary">Join the Discord
+							server for dev chatting & getting help <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="text-center mt-6 mb-0 w-md-50 mx-auto">
+					<h2 style="color:#d04be0;">Help! I Need Inspiration & Energy To Start/Keep On Building ...</h2>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-2">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<a href="https://www.youtube.com/watch?v=Ja9D0kpksxw" target="_blank" class="text-secondary">Charles Whiteboard Video <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-12 mt-0 mt-md-0 mb-4">
+					<div class="text-secondary lead text-center mx-auto mt-2">
+						<a href="https://www.youtube.com/live/VdCNCe1bWfs" target="_blank" class="text-secondary">Why we keep on keeping on by Charles <i class="fe fe-external-link"></i></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<div class="section bg-black pt-8 pb-6">
+		<div class="container">
+			<div id="open-source-projects" class="text-center mt-2 mb-8">
+				<h2 class="text-muted-80">Some Open-Source Code By Cardano Projects</h2>
+			</div>
+			<div class="row border-bottom border-gray-900-50 pt-0 mt-4">
+				<div class="col-12">
+					<div class="row">
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/MuesliSwapTeam/"
+									target="_blank">MuesliSwap</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/minswap" target="_blank">Minswap</a>
+							</h3>
+						</div>
+
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/jpg-store/contract-v2"
+									target="_blank">JPG Store</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-2 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/Cardano-NFTs" target="_blank">CNFT.io</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/ADAOcommunity" target="_blank">ADAO</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/spectrum-finance"
+									target="_blank">Spectrum Finance</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/aadafinance" target="_blank">AADA
+									Finance</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/dcSpark" target="_blank">dcSpark</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/NicholasMaselli/ADABlobs"
+									target="_blank">ADABlobs</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white"
+									href="https://github.com/DirectEd-Development-Foundation/directed-smart-contract"
+									target="_blank">DirectEd</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href=" https://github.com/logicalmechanism" target="_blank">Local
+									Mechanism</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/Liqwidfinance" target="_blank">Liquid
+									Finance</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/WingRiders"
+									target="_blank">WingRiders</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/Berry-Pool"
+									target="_blank">Berry-Pool</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/spacebudz" target="_blank">SpaceBudz</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/berry-pool/nami" target="_blank">NAMI Wallet</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-6 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/fallen-icarus/cardano-swaps"
+									target="_blank">Cardano-Swaps (DEX)</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-2 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/teddy-swap"
+									target="_blank">Teddy-Swap</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-2 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/kreate-community" target="_blank">Kreate</a>
+							</h3>
+						</div>
+						<div class="col col-12 col-md-6 mb-2 text-center">
+							<h3 class="text-white">
+								<a class="text-white" href="https://github.com/OpenLitterMap/openlittermap-web/blob/cf196bfeb3847a8035bef8550af0c78e7dc1c140/littercoin/README.md" target="_blank">LitterCoin</a>
+							</h3>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col col-12 mt-0 mb-6 text-center">
+							<div class="text-white lead fw-bold" style="font-size:2rem;">
+								+
+							</div>
+							<div class="text-center mt-3">
+								<a href="https://github.com/cardano-community" target="_blank"
+									class="text-muted-80 lead">Cardano Community Open-Source Hub @ github.io</i></a>
+							</div>
+							<div class="text-secondary lead mt-3">
+								<a href="https://dappsoncardano.com" target="_blank" class="text-muted-80">Projects on
+									dAppsOnCardano.com with green icon next to them</a>
+							</div>
+							<div class="text-secondary lead mt-3">
+								<a href="https://github.com/ProofOfCardano/projects" target="_blank"
+									class="text-muted-80">@ProofOfCardano Open Source Project Tracking</a>
+
+								<a class="ms-1" data-toggle="collapse" role="button" href="#proofofcardano-projects">
+									| Show Projects <i class="fe fe-chevron-down" data-bs-toggle="tooltip"
+										data-bs-placement="top" title="" data-bs-original-title="Show Projects"></i>
+								</a>
+								<div class="collapse mt-6" id="proofofcardano-projects">
+									<div id="proofofcardano-projects-view">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="section bg-black pt-8 pb-6">
+				<div class="container">
+					<div id="some-channels-people-to-follow" class="text-center mt-2 mb-8">
+						<h2 class="text-muted-80">Some Channels/People To Follow</h2>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@LearnCardano"
+											target="_blank">Learn Cardano</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/c/ArmyofSpies"
+											target="_blank">Army of Spies</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@spicydumplingshow1856"
+											target="_blank">Spicy Dumpling Show</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="d-none col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/c/S-PIEN"
+											target="_blank">SAPIEN</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@CardanoWithPaul"
+											target="_blank">Cardano With Paul</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href=" https://www.youtube.com/@jcrypto2763"
+											target="_blank">JCRYPTO</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/c/DappCentral"
+											target="_blank">dApp Central</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@bigpey" target="_blank">big
+											pey</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@KaizenCrypto"
+											target="_blank">Kaizen Crypto</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@AndrewWestberg"
+											target="_blank">NerdOut</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@PGWAD"
+											target="_blank">PGWAD</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@thisweekincardano"
+											target="_blank">This Week In Cardano</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@adafrog1550"
+											target="_blank">ADA Frog</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@iogacademy"
+											target="_blank">IOG Academy</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://www.youtube.com/@africaonchain"
+											target="_blank">Africa on Chain</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4">
+							<div class="row">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center">
+									<h3 class="text-white">
+										<a class="text-white" href="https://314pool.com"
+											target="_blank">314pool ( &Pi; Lanningham )</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12">
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center lead">
+									<div id="services" class="text-muted-80 text-center">
+										<h2>Services</h2>
+									</div>
+
+									<div class="row w-md-75 mx-auto">
+										<div class="col-12 col-md-6 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://ada-anvil.io" target="_blank">ANVIL</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://nmkr.io" target="_blank">NMKR</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://jpg.store/studio" target="_blank">jpg.store/Studio</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://api.opencnft.io/1/"
+												target="_blank">OpenCNFT</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://charli3.io" target="_blank">CHARLi3</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://www.orcfax.linko"
+												target="_blank">Orcfax (Standards Based Oracle)</a>
+										</div>
+
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://singularitynet.io"
+												target="_blank">SingularityNET</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://docs.kaleido.io/"
+												target="_blank">Kaleido (IPFS)</a>
+										</div>
+										
+
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://nowpayments.io"
+												target="_blank">NOWPayments<br/><span class="text-muted small">(ADA)</span></a>
+										</div>
+
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://www.fungpayments.com"
+												target="_blank">FungPayments<br/><span class="text-muted small">(ADA + TradTokens)</span></a>
+										</div>
+
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://www.revelar.co/" target="_blank">Revelar
+												(Gaming)</a>
+										</div>
+
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white"
+												href="https://docs.drasil.io/introduction/welcome-to-drasil-api-docs"
+												target="_blank">Drasil</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href=" https://www.blockery.io"
+												target="_blank">Blockery</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://www.monkeycontracts.com/"
+												target="_blank">Monkey Smart Contracts</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://www.hazelnet.io"
+												target="_blank">HAZELnet.io (Discord Integration)</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://clearcontracts.io/products"
+												target="_blank">Clarity (DAO Tooling)</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://summonplatform.io"
+												target="_blank">SummonPlatform.io (DAO Tooling)</a>
+										</div>
+										<div class="col-12 col-md-6 text-muted-80 mt-6 text-center">
+											<a class="text-white" href="https://geosearch.dev"
+												target="_blank">GeoSearch.dev</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center lead">
+
+									<div id="ssi" class="text-muted-80 text-center">
+										<h2>SSI (DIDs/VCs)</h2>
+									</div>
+
+									<div class="row w-md-75 mx-auto">
+										<div class="col-12 text-muted-80 mt-2 text-center">
+											<a class="text-white"
+												href="https://www.manning.com/books/self-sovereign-identity"
+												target="_blank">Self-Sovereign Identity Book</a>
+										</div>
+										<div class="col-12 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://rootsid.com/wallet/"
+												target="_blank">RootsWallet</a>
+										</div>
+										<div class="col-12 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://slfdrvn.io/trust/#ssi" target="_blank">slfdrvn.io; Trust In Learning Achievements Using SSI</a>
+										</div>
+										<div class="col-12 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://atalaprism.io" target="_blank">Atala Prism</a>
+										</div>
+										<div class="col-12 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://www.youtube.com/watch?v=v8ljiysUrCA" target="_blank">Learn Cardano; Allison From ProofSpace Talking About SSI</a>
+										</div>
+										<div class="col-12 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://www.youtube.com/watch?v=9jtLwfS9VV4" target="_blank">ADAPulse; Atala PRISM: Foundations for Self-Sovereign Identity</a>
+										</div>
+										<div class="col-12 text-muted-80 mt-2 text-center">
+											<a class="text-white" href="https://worldmobile.io/blog/post/decentralised-identifiers-an-introduction" target="_blank">World Mobile; Decentralised Identifiers: An Introduction</a>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center lead">
+
+									<div id="network" class="text-center text-muted-80">
+										<h2>Network</h2>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cips.cardano.org/cips/cip19/"
+											target="_blank">CIP 19; Cardano Addresses</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cardanoscan.io"
+											target="_blank">Cardanoscan.io</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cexplorer.io"
+											target="_blank">Cexplorer.io</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://eutxo.org/" target="_blank">eUTXO.org;
+											Visual Blockchain Explorer</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://iohk.io/en/blog/posts/2023/01/12/iog-launches-a-toolkit-for-developing-custom-sidechains-on-cardano/"
+											target="_blank">Side-Chain Took Kit</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://github.com/input-output-hk/mithril"
+											target="_blank">Mithril</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://iohk.io/en/research/library/papers/conclave-a-collective-stake-pool-protocol/"
+											target="_blank">IOG; Conclave a Collective Stake Pool Protocol</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.cardanocube.io/collections/wallets"
+											target="_blank">Cardanocube; Wallets</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.nodeshark.io" target="_blank">NodeShark;
+											A Transaction Visualisation Tool</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://developers.cardano.org/docs/native-tokens/cardano-token-registry/"
+											target="_blank">Cardano; Register Token</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://github.com/minswap/verified-tokens"
+											target="_blank">Minswap; Verify Tokens</a>
+									</div>
+                                    <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href=" https://youtu.be/zOTfhcK-Wf4"
+											target="_blank">Dynamic Peer-To-Peer by Duncan Coutts</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://medium.com/@rosenbridgeerg/introducing-the-rosen-bridge-a-distributed-network-for-cross-chain-settlement-92b577bd8a27"
+											target="_blank">The Rosen Bridge; A Distributed Network for Cross-Chain Settlement</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.youtube.com/watch?v=y46dARLUmmI" target="_blank">Tutorial on Concise Data Definition Language (CDDL) for JSON and CBOR data</a>
+									</div>
+								
+                                    <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://docs.cardano.org/development-guidelines/scalability-solutions/hydra"
+											target="_blank">Hydra Head; Scaling the network</a><br />
+                                            <a class="text-muted-80 small" href="https://hydraw.ncoding.at"
+											target="_blank"><i class="fe fe-code"></i> Hydraw; First example app</a>
+                                            <br />
+                                            <a class="text-muted-80 small" href="https://cardanoscan.io/token/6a7b9c0e9454f95cb3aeda9e95b700945a8e796b7e017e2160f148484879647261486561645631"
+											target="_blank"><i class="fe fe-database"></i> Hydraw; Transactions on CardanoScan</a>
+									</div>
+
+									<div id="governance" class="text-center text-muted mt-6">
+										<div class="lead" style="font-size: 1.5rem;">Network Governance</div>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://github.com/JaredCorduan/CIPs/blob/voltaire-v1/CIP-1694/README.md"
+											target="_blank">CIP-1694; Governance (Work In Progress)</a><br />
+                                            <a class="text-muted-80 small" href="https://able-pool.io/voltaire"
+											target="_blank"><i class="fe fe-image"></i> In-a-Nutshell Flow Diagram by Able-Pool</a>
+											<br />
+                                            <a class="text-muted-80 small" href="https://forum.cardano.org/t/cip-1694-workshop-recap-colorado-feb-28-mar-1/115875"
+											target="_blank"><i class="fe fe-sun"></i> CIP-1694 Workshop Docs (Colorado Feb 28 - Mar 1)</a>
+											<br />
+                                            <a class="text-muted-80 small" href="https://www.youtube.com/watch?v=BWm0S_H_Qyw"
+											target="_blank"><i class="fe fe-youtube"></i> Recap of Workshop Video</a>
+
+											
+									</div>
+
+									<div class="text-muted-80 mt-3 text-center">
+										<a class="text-white" href="https://github.com/cardano-foundation/hydra-voting-poc"
+											target="_blank">Hydra Voting Proof-Of-Concept</a>
+									</div>
+
+                                    <div id="governance" class="text-center text-muted mt-6">
+										<div class="lead" style="font-size: 1.5rem;">CIPs of Interest</div>
+									</div>
+
+                                    <div class="text-muted-80 mt-1 mb-3 text-center">
+                                        <a class="text-muted-80 small" href=" https://cips.cardano.org/"
+											target="_blank">What Are Cardano Improvement Propsals (CIPs) & Full List <i class="fe fe-external-link"></i></a>
+									</div>
+                                   
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cips.cardano.org/cips/cip30/"
+											target="_blank">CIP-30; Cardano dApp-Wallet Web Bridge</a>
+									</div>
+
+                                    <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cips.cardano.org/cips/cip31/"
+											target="_blank">CIP-31; Reference Inputs</a>
+									</div>
+
+                                    <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cips.cardano.org/cips/cip32/"
+											target="_blank">CIP-32; Inline Datums</a>
+									</div>
+
+                                      <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cips.cardano.org/cips/cip33/"
+											target="_blank">CIP-33; Reference Scripts</a>
+									</div>
+
+                                    <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cips.cardano.org/cips/cip68/"
+											target="_blank">CIP-67; Asset Name Label Registry</a>
+									</div>
+
+                                    <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cips.cardano.org/cips/cip68/"
+											target="_blank">CIP-68; Datum Metadata Standard (Dynamic NFTs)</a>
+									</div>
+
+									 <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://github.com/cardano-foundation/CIPs/pull/467"
+											target="_blank">CIP-88; Native Asset Policy Registration/Information Certificates</a>
+									</div>
+
+									
+
+								</div>
+							</div>
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center lead">
+
+									<div id="infrastructure" class="text-center text-muted-80">
+										<h2>Infrastructure</h2>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://developers.cardano.org/docs/operate-a-stake-pool/"
+											target="_blank">Cardano; Setting up a Stake Pool</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://liqwid.notion.site/liqwid-liquidation-bot-Docker-Image-README-2f2928fd042f4a26ad87ca02bd0a242a"
+											target="_blank">Liqwid; Liquidation Bot</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://docs.teddyswap.org/testnet-guide/how-to-run-a-batcher-badger"
+											target="_blank">TeddySwap; How to Run a Batcher/Badger</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center lead">
+
+									<div id="related-dev-resources" class="text-center text-muted-80">
+										<h2>Related Dev Resources</h2>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://code.visualstudio.com"
+											target="_blank">VSCode (Code Editing)</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://fireship.io/courses/"
+											target="_blank">Fireship.io (Courses)</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://flur.ee/" target="_blank">Fluree; Data
+											Management Tooling</a>
+									</div>
+
+							
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://github.com/ImperatorLang/plutus-bench"
+											target="_blank">Plutus-Bench; Benchmarking for Cardano Smart Contract
+											languages</a>
+									</div>
+                                    <div class="text-muted-80 mt-0 text-center">
+										<a class="text-muted-80 small" href="https://docs.google.com/spreadsheets/d/1tHKP9fyB65ulXgIxYJmgMS5Rf5jjYkCJeFNmSor5NHw"
+											target="_blank">Example; plutus-tx | OpShin | hebi</a>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center lead">
+
+									<div id="related-dev-resources" class="text-center text-muted-80">
+										<h2>Related Design Resources</h2>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://yukaichou.com/gamification-book/" target="_blank">Human-Centric Design; Octalysis Framework</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers" target="_blank">CSS; Light/Dark Mode Based On OS User Setting</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://cssgradient.io" target="_blank">CSS; Background Gradients</a>
+									</div>
+									
+								</div>
+							</div>
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-6 text-center lead">
+
+									<div id="staying-safe" class="text-center text-muted-80 mb-6">
+										<h2 class="text-warning"><i class="fe fe-shield"></i> Staying Safe On-Chain!
+										</h2>
+										<div class="text-muted-80">Tips to protect yourself and share with the users of
+											your apps|dApps.</div>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://iohk.zendesk.com/hc/en-us/articles/900005141163"
+											target="_blank">IOG; Cybersecurity guidelines for Cardano users</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://epochsec.io" target="_blank">epochsec.io;
+											Weekly Podcast & CyberSecurity Advice</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.virustotal.com/gui/home/uploado"
+											target="_blank">virustotal.com; URL Checker</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://support.ledger.com/hc/en-us/articles/115005198545-FIDO-U2F?docs=true"
+											target="_blank">Using Your Ledger as a FIDO U2F Device (like a Yubi key)</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="row border-top border-gray-900-50 pt-8 mt-4">
+								<div class="col col-md-12 ms-md-0 mb-4 text-center lead">
+
+									<div class="text-muted-80 text-center">
+										<h2><i class="fe fe-external-link"></i></h2>
+									</div>
+
+									<div class="text-muted-80 text-center">
+										<a class="text-white" href="https://learncardano.io"
+											target="_blank">learncardano.io</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.essentialcardano.io/"
+											target="_blank">essentialcardano.io</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://www.essentialcardano.io/article/cardano-working-groups"
+											target="_blank">essentialcardano.io; Working Groups</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://education.cardanofoundation.org"
+											target="_blank">education.cardanofoundation.org</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center mx-auto w-md-50">
+										<a class="text-white" href="https://cardanobook.com" target="_blank">"Cardano
+											For The Masses" Book</a>.
+									</div>
+									<div class="text-muted-80 mt-2 text-center mx-auto w-md-50 d-none">
+										Interested in learning about how to create NFTs as an artist, then check out <a
+											href="https://www.artomics.io" target="_blank">artomics.io</a>.
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://twitter.com/soorajksaju2"
+											target="_blank">Just the Metrics (Sooraj & Laura)</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.lidonation.com" target="_blank">LIDO
+											Nation (Education, Outreach, Community Building)</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://education.emurgo.io"
+											target="_blank">education.emurgo.io</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://www.blockchain.uzh.ch/courses/deep-dive-into-blockchain/"
+											target="_blank">UZH Summer School: Deep Dive into Blockchain</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://blockchainlearning.center/courses/cardano-blockchain-developer-series/"
+											target="_blank">blockchainlearning.center; Cardano Developer Series</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://docs.cardano.org/pioneer-programs/plutus-pioneers/"
+											target="_blank">Plutus Pioneer Program</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white"
+											href="https://adapulse.io/how-blockchain-is-revolutionizing-tokenization-a-beginners-guide/"
+											target="_blank">ADAPulse; Tokenization a Beginners Guide</a>
+									</div>
+
+									<div class="text-muted-80 mt-6 text-center">
+										<a class="text-white" href="https://projectcatalyst.io"
+											target="_blank">projectcatalyst.io</a>
+									</div>
+                                    <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://kreate.community" target="_blank">Kreate;
+											Community funding for projects</a>
+									</div>
+									  <div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.certik.com/products/security-audit"
+											target="_blank">CERTIK; Security Auditing</a>
+									</div>
+
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://www.dapp360.io" target="_blank">dApp360;
+											Placing web3 & dapp developers</a>
+									</div>
+
+									<div class="text-muted-80 mt-6 text-center">
+										<a class="text-white" href="https://cardanospot.io" target="_blank">Join CARDANO
+											SPOT to discuss Cardano!</a>
+									</div>
+									<div class="text-muted-80 mt-2 text-center">
+										<a class="text-white" href="https://adapulse.io" target="_blank">ADAPULSE</a>
+									</div>
+
+									<div class="text-muted-80 mt-6 text-center">
+										<a class="text-white"
+											href="https://cardanojournal.com/explaining-cardano-s-eutxo-model-for-a-five-year-old-356"
+											target="_blank">Cardano Journal; Explaining Cardano's eUTXO model for a
+											five-year-old</a>
+									</div>
+
+
+
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div> <!-- / .container-->
+			</div>
+
+			<section class="bg-black">
+				<div class="container px-md-0 py-6 py-md-8 border-top border-bottom border-gray-900-50">
+					<div class="row align-items-center">
+						<div class="col-12 text-center">
+							<h2 class="fw-bold text-white mb-1">
+								Some Conceptualisation Diagrams
+							</h2>
+							<div class="text-muted-80 lead">
+								How it fits together & transaction types.
+							</div>
+							<div class="text-secondary small mt-2 mb-3">
+								<i class="fe fe-zoom-in"></i> Click to open for the more detailed diagram.
+							</div>
+						</div>
+						<div class="col-12 my-5">
+							<div id="how-it-all-fits-together" class="carousel slide" data-ride="carousel" data-interval="false">
+								<ul class="carousel-indicators">
+									<li data-target="#how-it-all-fits-together-0" data-slide-to="0" class="active"></li>
+									<li data-target="#how-it-all-fits-together-1" data-slide-to="1"></li>
+								</ul>
+
+								<div class="carousel-inner w-75 mx-auto">
+   									<div class="carousel-item active">
+										<a href="/site/2098/selfdriven-getting-on-chain-components-dark.png" target="_blank"><img
+												src="/site/2149/selfdriven-getting-on-chain-components-small-dark.png"
+												class="rounded img-responsive w-100">
+										</a>
+									</div>
+
+									<div class="carousel-item text-center">
+										<a href="/site/2149/selfdriven-education-tech-transaction-types-dark.png" target="_blank"><img
+												src="/site/2149/selfdriven-education-tech-transaction-types-small-dark.png"
+												class="rounded img-responsive w-100">
+										</a>
+									</div>
+
+
+									
+								</div>
+
+								 <a class="carousel-control-prev" href="#how-it-all-fits-together" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a class="carousel-control-next" href="#how-it-all-fits-together" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="fw-bold text-muted-80 mt-4 text-center mx-auto w-md-50">
+								<i class="fe fe-info"></i>
+							</div>
+							<div class="text-muted-80 mt-2 text-center mx-auto w-md-75">
+								Some of the technical details about wallets, addresses, accounts have been simplified to
+								help communicate the core concepts.
+							</div>
+						</div>
+					</div>
+				</div> <!-- / .container -->
+			</section>
+
+			<section class="pt-8 pb-8">
+				<div class="container">
+
+					<div class="row mb-0 text-center">
+						<a href="https://labs.openai.com/s/Z2aw9iPnloIrO2Y146BXMFrf" target="_blank"
+							class="text-decoration-none">
+							<img style="width: 90px !important"
+								src="/site/2134/selfdriven-art-series-3-octo.0.doing.stuff-thanks.png"
+								class="img-responsive mx-auto rounded-circle mb-6 w-50 w-md-25">
+						</a>
+					</div>
+
+					<div class="row mb-4 justify-content-center">
+						<div class="col-12 text-center">
+							<a href="https://slfdrvn.io/octo" target="_blank"
+								class="lead text-secondary fw-bold">Supported by Octo @ slfdrvn.io</a>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-12 text-center">
+							<a href="/getting-on-chain" class="text-secondary">Getting On-Chain Guide</a>
+						</div>
+					</div>
+
+					<div class="row mt-2 justify-content-center">
+						<div class="col-12 text-center">
+							<a href="/on-chain" class="text-secondary">Why slfdrvn.io uses Cardano for On-Chain
+								Technology.</a>
+						</div>
+					</div>
+
+					<div class="row mt-2 justify-content-center">
+						<div class="col-12 text-center">
+							<a href="https://discord.gg/ze5xh884ta" target="_blank" class="text-secondary">Chat on
+								Discord</a>
+						</div>
+					</div>
+
+					<div class="row mt-2 justify-content-center">
+						<div class="col-12 text-center">
+							<a href="https://mesh.martify.io/about/support-us" target="_blank" class="text-secondary">I
+								have supported the MeshJS Project with a donation, you can too!</a>
+						</div>
+					</div>
+
+					<div class="text-info mt-6 pt-6 border-top border-gray-900-50 mb-4 w-md-75 text-center mx-auto">
+						<div class="fw-bold lead">LITEPAPER covering the future of this site is coming soon!</div>
+						<div class="mt-3">It will cover the potential for this site to be community run and also as a
+							worked example of Proof of Reputation (PoR) for recognising community support - beyond being
+							a member of the caring Cardano community! ;-)</div>
+						<div class="mt-3 d-none">If you'd like to get involved in supporting this project, then message
+							me <a href="https://twitter.com/@selfdrivenOcto" target="_blank">@selfdrivenOcto</a></div>
+
+					</div>
+
+					<div
+						class="fw-bold text-info mt-0 pt-0 border-top border-gray-900-50 mb-4 w-md-50 text-center mx-auto">
+						<div class="">We are currently collecting input from the community on what they would like this
+							to become.</div>
+						<div class="mt-4">
+							<a href="https://forms.gle/gQgzoJG3sShT8QN56" target="_blank"
+								class="btn btn-light shadow-lg lift">Have Your Say!</a>
+						</div>
+						<div class="mt-4">#CardanoCommunity</div>
+					</div>
+
+					<div
+						class="d-none text-secondary mt-6 pt-6 border-top border-gray-900-50 mb-4 w-md-50 text-center mx-auto">
+						<div>Did someone say "A <a href="https://hydra.family/head-protocol/" target="_blank"
+								class="text-secondary"><em>Hydra: Head</em></a> based Dev Forum"?.</div>
+					</div>
+
+					<div class="text-muted-80 mt-8 mb-2 text-secondary text-center">
+						<a class="text-secondary" href="https://dsociety.io" target="_blank">Contributing to a
+							Descentralised Society</a>
+					</div>
+
+					<div class="text-muted-80 mt-2 mb-2 text-secondary text-center">
+						<a class="text-secondary" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">All BuildingOnCardano.dev & slfdrvn.io content shared as CCO (Public Domain)</a>
+					</div>
+
+					<div class="text-muted-80 mt-2 mb-6 text-secondary text-center">
+						<a class="text-secondary" href="https://en.wikipedia.org/wiki/File:Aaron_Swartz_-_The_Network_Transformation.webm" target="_blank">Aaron; The Transformation of the Network</a>
+					</div>
+
+
+					
+
+				</div>
+			</section>
+
+
+
+			<!-- https://landkit.goodthemes.co/blog.html#! -->
+
+
+			<!-- JAVASCRIPT -->
+			<!-- Map JS -->
+			<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+			<!-- Vendor JS -->
+			<script src="/site/2033/landkit.vendor.bundle.js"></script>
+
+			<!-- Theme JS -->
+			<script src="/site/2033/landkit.theme.bundle.js"></script>
+
+			<script src="/site/2030/jquery-3.2.1.min.js"></script>
+			<script src="/site/1987/bootstrap.min.js"></script>
+
+			<script src="/site/1901/lodash.min.js"></script>
+			<script src="/site/1901/moment.min.js"></script>
+			<script src="/site/1901/numeral.min.js"></script>
+
+
+
+			<script src="/site/2149/entityos-3.9.6.js"></script>
+			<script src="/site/2149/entityos.util-5.0.0.js"></script>
+
+			<script src="/site/2149/2149.app-1.0.0.js"></script>
+
+
+
+</body>
+
+</html>
