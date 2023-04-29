@@ -1,0 +1,46 @@
+{
+    "building-on-cardano":
+    {
+        "languages":
+        {
+            "machine":
+            [
+                {
+                    "name": "plu-ts",
+                    "caption": "Plu-ts",
+                    "description": "DSL for smart contracts creation with a library for transactions, all in Typescript.",
+                    "base-languages": [ "JavaScript", "TypeScript"],
+                    "url": "https://pluts.harmoniclabs.tech/",
+                    "templates":
+                    [
+                        {
+                            "name": "base",
+                            "url": "/site/2149/building-on-cardano-plu-ts.json"
+                        }
+                    ]
+                }
+            ],
+            "human":
+            [
+                {
+                    "name": "en",
+                    "caption": "English"
+                },
+                {
+                    "name": "es",
+                    "caption": "Español",
+                    "base-caption": "Spanish"
+                },
+                {
+                    "name": "fr",
+                    "caption": "Français",
+                    "base-caption": "French"
+                }
+            ]
+        }
+    }
+}
+
+
+
+
