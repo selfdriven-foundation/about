@@ -5,7 +5,12 @@
 			"caption": "Hello Plu-ts",
 			"type": "hello-world",
 			"human-language": [{"code": "en", "caption": "English"}],
-			"source-url": "https://pluts.harmoniclabs.tech/docs/examples/Hello_world_v0",
+			"based-on":
+			{
+				"project": {"url": "https://pluts.harmoniclabs.tech/"},
+				"doc": {"url": "https://pluts.harmoniclabs.tech/docs/examples/Hello_world_v0"}
+			},
+			"source-code": {"url": "https://raw.githubusercontent.com/selfdriven-foundation/about/main/community-projects-we-support/buildingoncardano-dev/templates/plu-ts/"},
 			"sharing": "CC BY-SA 4.0",
 			"context": [
 				"All we need to build a smart contract and interact with it is plu-ts & a way to submit transactions.",
@@ -22,17 +27,17 @@
 					"text": "Using git we clone a very simple template project:"
 				},
 				{
-					"code-filex": "plu-ts-git-clone.md",
-					"code-file": "2149.home-1.0.73-url_home.html"
+					"code-file": "plu-ts-git-clone.md"
 				},
 				{
 					"text": "This gives us a simple project structure:"
 				},
 				{
-					"code-filex": "plu-ts-folders.md"
+					"code-file": "plu-ts-folders.md",
+					"class": "text-left"
 				},
 				{
-					"text": "Now we only need to run npm install to automatically add the plu-ts library."
+					"text": "Now we only need to run npm install to automatically add the plu-ts library:"
 				},
 				{
 					"code-text": "npm install"
@@ -150,7 +155,6 @@
 							"name": "custom-2",
 							"step": "2",
 							"caption": "Introducing the owner",
-							"text": "We want to personalize the smart contract so that:",
 							"info": "The datum helps us keep track of the history of the input the smart contract is validating."
 						},
 						{
