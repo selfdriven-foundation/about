@@ -1,22 +1,29 @@
 {
     "cardano": {
         "ninja": {
-            "alerts":
-                {
+            "alerts": {
                 "schema": {},
                 "data": [
                     {
                         "date": "14DEC2023",
+                        "title": "Fake AGIX REWARD EVENT Giveaway",
+                        "description": "Look out for a fake AGIX REWARD EVENT giveaway website that will trick you into sending select assets to the creator of the fake website.",
+                        "status": "active"
+                    },
+                    {
+                        "date": "14DEC2023",
+                        "title": "Fake SNEK Giveaway",
                         "description": "Look out for a fake SNEK giveaway website that will trick you into sending select assets to the creator of the fake website.",
                         "status": "active"
                     },
                     {
                         "date": "10DEC2023",
+                        "title": "Berry Pool Wallet Drain",
                         "description": "Look out for a Berry Pool fake website that will trick you into sending all your assets to the creator of the fake website.",
                         "status": "active"
                     }
                 ]
-                }
+            }
         }
     }
 }
