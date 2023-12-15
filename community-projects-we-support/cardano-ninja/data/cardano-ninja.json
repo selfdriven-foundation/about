@@ -12,6 +12,12 @@
                     },
                     {
                         "date": "14DEC2023",
+                        "title": "Fake Charles Hoskins Video",
+                        "description": "GenerativeAI created fake Charles Hoskinsons video promoting an airdrop.",
+                        "status": "active"
+                    },
+                    {
+                        "date": "14DEC2023",
                         "title": "Fake SNEK Giveaway",
                         "description": "Look out for a fake SNEK giveaway website that will trick you into sending select assets to the creator of the fake website.",
                         "status": "active"
