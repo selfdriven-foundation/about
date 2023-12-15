@@ -1,0 +1,446 @@
+{
+    "cardano": {
+        "wallets": {
+            "schema": {
+                "ui-sizes": {
+                    "nano": {
+                        "description": "On-Device"
+                    },
+                    "small": {
+                        "description": "Mobile"
+                    },
+                    "medium": {
+                        "description": "Tablet, iPad etc"
+                    },
+                    "large": {
+                        "description": "Desktop"
+                    }
+                },
+                "ui-elements": {
+                    "fungible-tokens": {
+                        "description": ""
+                    },
+                    "non-fungible-tokens": {
+                        "description": ""
+                    },
+                    "transactions": {
+                        "description": ""
+                    },
+                    "dapps": {
+                        "description": ""
+                    },
+                    "send-transaction": {
+                        "description": ""
+                    },
+                    "view-seed-phase": {
+                        "description": ""
+                    },
+                    "staking-delegation": {
+                        "description": ""
+                    },
+                    "staking-delegation-many": {
+                        "description": "Many pools"
+                    }
+                },
+                "staking-delegration-types": {
+                    "single-pool-locked": {
+                        "description": "Wallet controls which pool"
+                    },
+                    "single-pool-per-account": {
+                        "description": "User chooses the pool"
+                    },
+                    "many-pools-per-account": {
+                        "description": "User can choose many pools"
+                    }
+                },
+                "user-agents": {
+                    "ios": {
+                        "description": "ios"
+                    },
+                    "android": {
+                        "description": "android"
+                    },
+                    "macos": {
+                        "description": "macos"
+                    },
+                    "windows": {
+                        "description": "windows"
+                    },
+                    "linux": {
+                        "description": "linux"
+                    },
+                    "webbrowser-site": {
+                        "description": "webbrowser-site"
+                    },
+                    "webbrowser-extension": {
+                        "description": "webbrowser-extension"
+                    },
+                    "on-device": {
+                        "description": "on-device"
+                    }
+                },
+                "account-address-types": {
+                    "single": {
+                        "description": "single"
+                    },
+                    "multiple": {
+                        "description": "multiple"
+                    }
+                },
+                "accounts": {
+                    "single": {
+                        "description": "single"
+                    },
+                    "multiple": {
+                        "description": "multiple"
+                    }
+                },
+                "seed-phases": {
+                    "12-words": {
+                        "word-count": "12",
+                        "eras": [
+                            "byron"
+                        ]
+                    },
+                    "15-words": {
+                        "word-count": "15",
+                        "eras": [
+                            "byron",
+                            "shelley"
+                        ]
+                    },
+                    "18-words": {
+                        "word-count": "18",
+                        "eras": [
+                            "shelley"
+                        ]
+                    },
+                    "21-words": {
+                        "word-count": "21",
+                        "eras": [
+                            "shelley"
+                        ]
+                    },
+                    "24-words": {
+                        "word-count": "24",
+                        "eras": [
+                            "shelley"
+                        ]
+                    }
+                },
+                "key-storage-types": {
+                    "user-agent": {
+                        "description": "user-agent"
+                    },
+                    "hardware-device": {
+                        "description": "Ledger, Trezor etc"
+                    }
+                },
+                "on-chain-data-iteraction-types": {
+                    "remote": {
+                        "description": "Via API"
+                    },
+                    "local-full": {
+                        "description": "On user agent eg Daeleus"
+                    },
+                    "local-snapshot": {
+                        "description": "Mitril"
+                    }
+                },
+                "source-code-types": {
+                    "closed": {
+                        "description": "Code can not be viewed"
+                    },
+                    "open": {
+                        "description": "Code can be viewed"
+                    },
+                    "open-community": {
+                        "description": "Code can be viewed and contributed by the community."
+                    }
+                },
+                "app-support-types": {
+                    "none": {
+                        "description": ""
+                    },
+                    "dapp-user-agent": {
+                        "description": "dApps etc"
+                    },
+                    "dapp-hardware-device": {
+                        "description": ""
+                    }
+                },
+                "standards": {
+                    "cip-30": {
+                        "description": "CIP-30"
+                    }
+                },
+                "status": {
+                    "supported": {
+                        "description": "Actively supported"
+                    },
+                    "deprecated": {
+                        "description": "Soon to be unsuppored"
+                    },
+                    "unsupported": {
+                        "description": "Not supported anymore"
+                    }
+                }
+            },
+            "data": [
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "adalite",
+                    "caption": "AdaLite",
+                    "description": "Associated with NuFi",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://adalite.io"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "begin",
+                    "caption": "Begin",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://begin.is"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "daedalus",
+                    "caption": "Daedalus",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://daedalus.io"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "exodus",
+                    "caption": "Eternl",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://eternl.io"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "exodus",
+                    "caption": "Exodus",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://www.exodus.com/ada-cardano-wallet"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "flint",
+                    "caption": "Flint",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://flint-wallet.com/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "gamechanger",
+                    "caption": "GameChanger",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://gamechanger.finance/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "gero",
+                    "caption": "Gero",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://gerowallet.io/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete|1",
+                    "name": "keystone",
+                    "caption": "Keystone",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": " https://keyst.one/",
+                    "ui-sizes": [
+                        "nano"
+                    ],
+                    "ui-elements": [],
+                    "user-agents": [
+                        "on-device"
+                    ],
+                    "account-address-types": [
+                        "single",
+                        "multiple"
+                    ],
+                    "accounts": [
+                        "multiple"
+                    ],
+                    "staking-delegration-types": [],
+                    "app-support-types": [],
+                    "seed-phases": [
+                        "?_24-words"
+                    ],
+                    "key-storage-types": [
+                        "hardware-device"
+                    ],
+                    "on-chain-data-iteraction-types": [],
+                    "source-code": {
+                        "type": [
+                            "closed"
+                        ],
+                        "managed-by": {
+                            "name": "keystone",
+                            "url": ""
+                        }
+                    },
+                    "standards": []
+                },
+                {
+                    "_dataprocessingstatus": "incomplete|1",
+                    "name": "lace",
+                    "caption": "Lace",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://lace.io",
+                    "ui-sizes": [
+                        "small",
+                        "medium",
+                        "large"
+                    ],
+                    "ui-elements": [
+                        "fungible-tokens",
+                        "non-fungible-tokens"
+                    ],
+                    "user-agents": [
+                        "ios",
+                        "android",
+                        "webbrowser-extension"
+                    ],
+                    "account-address-types": [
+                        "single",
+                        "multiple"
+                    ],
+                    "accounts": [
+                        "multiple"
+                    ],
+                    "staking-delegration-types": [
+                        "many-pool-per-account"
+                    ],
+                    "app-support-types": [
+                        "dapp-user-agent",
+                        "dapp-hardware-device"
+                    ],
+                    "seed-phases": [
+                        "?-24-words"
+                    ],
+                    "key-storage-types": [
+                        "user-agent",
+                        "hardware-device"
+                    ],
+                    "on-chain-data-iteraction-types": [
+                        "remote"
+                    ],
+                    "source-code": {
+                        "type": [
+                            "open"
+                        ],
+                        "managed-by": {
+                            "name": "IOG (Lace)",
+                            "url": "https:/lace.io"
+                        }
+                    },
+                    "standards": [
+                        "cip-30"
+                    ]
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "liveledger",
+                    "caption": "Live Ledger",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://www.ledger.com/ledger-live"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "nami",
+                    "caption": "Nami",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://namiwallet.io/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "nufi",
+                    "caption": "NuFi",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://nu.fi/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "trezor",
+                    "caption": "Trezor",
+                    "description": "?From ADALite?",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://trezor.io/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "typhon",
+                    "caption": "Typhon",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://typhonwallet.io/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "vesrpr",
+                    "caption": "Vespr",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://vespr.xyz/"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
+                    "name": "yoroi",
+                    "caption": "Yoroi",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://yoroi-wallet.com"
+                }
+            ]
+        }
+    }
+}
