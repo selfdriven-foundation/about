@@ -402,9 +402,19 @@
                 },
                 {
                     "_dataprocessingstatus": "incomplete",
+                    "name": "tangem",
+                    "caption": "tangem",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": " https://tangem.com"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
                     "name": "trezor",
                     "caption": "Trezor",
-                    "description": "?From ADALite?",
+                    "description": "",
                     "logo": {
                         "url": ""
                     },
