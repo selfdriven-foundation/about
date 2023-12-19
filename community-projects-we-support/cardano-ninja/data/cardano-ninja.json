@@ -5,6 +5,12 @@
                 "schema": {},
                 "data": [
                     {
+                        "date": "19DEC2023",
+                        "title": "Fake SNEK Reward Token",
+                        "description": "The metadata in the 'SNEK Reward token' sent to wallets will take you to a website that instead of sending the promised tokens, will send all the tokens in your wallet to the creator of the fake website.",
+                        "status": "active"
+                    },
+                    {
                         "date": "16DEC2023",
                         "title": "Fake Genius Yield Reward Token",
                         "description": "Look out for a fake Genius Yield reward website airdropping a 'Genius Yield Reward token'. It will instead send all the tokens in your wallet to the creator of the fake website.",
