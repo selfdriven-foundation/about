@@ -6,6 +6,14 @@
                 "schema": {},
                 "data": [
                     {
+                        "date": "19DEC2023",
+                        "by": "EpochSec",
+                        "description": "Hardware Wallet Review.",
+                        "status": "active",
+                        "type": "youtube",
+                        "url": "https://www.youtube.com/watch?v=LAoAR4df2-0"
+                    },
+                    {
                         "date": "16DEC2023",
                         "by": "Dapp Central",
                         "description": "Upgrades coming from the top wallet providers.",
