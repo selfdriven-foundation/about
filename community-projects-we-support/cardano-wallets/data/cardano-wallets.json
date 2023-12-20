@@ -229,6 +229,16 @@
                 },
                 {
                     "_dataprocessingstatus": "incomplete",
+                    "name": "ellipal",
+                    "caption": "Ellipal",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://www.ellipal.com"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
                     "name": "exodus",
                     "caption": "Exodus",
                     "description": "",
