@@ -392,6 +392,16 @@
                 },
                 {
                     "_dataprocessingstatus": "incomplete",
+                    "name": "mantium",
+                    "caption": "Mantium",
+                    "description": "",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://www.mantium.app"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
                     "name": "nami",
                     "caption": "Nami",
                     "description": "",
