@@ -422,6 +422,16 @@
                 },
                 {
                     "_dataprocessingstatus": "incomplete",
+                    "name": "poki",
+                    "caption": "Poki",
+                    "description": "NFT Wallet / Tracker",
+                    "logo": {
+                        "url": ""
+                    },
+                    "url": "https://www.getpoki.com"
+                },
+                {
+                    "_dataprocessingstatus": "incomplete",
                     "name": "tangem",
                     "caption": "tangem",
                     "description": "",
