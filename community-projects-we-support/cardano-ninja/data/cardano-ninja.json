@@ -5,15 +5,21 @@
                 "schema": {},
                 "data": [
                     {
+                        "date": "17JAN2024",
+                        "title": "Generally Look Out For Reward Tokens",
+                        "description": "The metadata in the 'Reward token' sent to your wallet will take you to a website that instead of sending the promised tokens, will send all the tokens in your wallet to the creator of the fake website. See Tip #3 Below.",
+                        "status": "active"
+                    },
+                    {
                         "date": "19DEC2023",
                         "title": "Fake Cornucopias (COPI) Reward Token",
-                        "description": "The metadata in the 'COPI Reward token' sent to wallets will take you to a website that instead of sending the promised tokens, will send all the tokens in your wallet to the creator of the fake website.",
+                        "description": "The metadata in the 'COPI Reward token' sent to your wallet will take you to a website that instead of sending the promised tokens, will send all the tokens in your wallet to the creator of the fake website.",
                         "status": "active"
                     },
                     {
                         "date": "19DEC2023",
                         "title": "Fake SNEK Reward Token",
-                        "description": "The metadata in the 'SNEK Reward token' sent to wallets will take you to a website that instead of sending the promised tokens, will send all the tokens in your wallet to the creator of the fake website.",
+                        "description": "The metadata in the 'SNEK Reward token' sent to your wallet will take you to a website that instead of sending the promised tokens, will send all the tokens in your wallet to the creator of the fake website.",
                         "status": "active"
                     },
                     {
