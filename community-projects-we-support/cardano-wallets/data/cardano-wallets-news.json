@@ -5,6 +5,15 @@
                 {
                 "schema": {},
                 "data": [
+
+                    {
+                        "date": "14FEB2024",
+                        "by": "LearnCardano",
+                        "description": "Nami Wallet Cardano Tutorial & Course.",
+                        "status": "active",
+                        "type": "website",
+                        "url": "https://learncardano.io/courses/how-to-use-nami-wallet-cardano/"
+                    },
                     {
                         "date": "19DEC2023",
                         "by": "EpochSec",
