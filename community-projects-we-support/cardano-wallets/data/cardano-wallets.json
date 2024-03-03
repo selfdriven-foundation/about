@@ -224,7 +224,7 @@
                     "summary": "Developed by IOHK, the official developers of Cardano, Daedalus is a full node wallet, meaning it downloads the entire Cardano blockchain to your device. This provides a high level of security but also requires more storage space.",
                     "description":
                     [
-                        "Desktop",
+                        "Desktop App",
                         "Full Node"
                     ],
                     "logo": {
@@ -268,7 +268,7 @@
                     "summary": "Exodus is a software wallet that supports a wide variety of cryptocurrencies, including Cardano. It is a non-custodial wallet, so you have complete control over your private keys. Exodus also offers a number of other features, such as built-in exchange and staking.",
                     "description":
                     [
-                        "Desktop",
+                        "Desktop App",
                         "Chrome-based Browsers",
                         "Mobile (Android & iOS)"
                     ],
@@ -299,7 +299,7 @@
                     "summary": "GameChanger is a mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys. GameChanger is designed for users who are interested in playing blockchain games.",
                     "description":
                     [
-                        "Desktop",
+                        "Desktop App",
                         "Mobile (Android & iOS)"
                     ],
                     "logo": {
@@ -441,7 +441,7 @@
                     "description":
                     [
                         "Hardware Wallet",
-                        "Desktop App (Windows. MacOS, Linux)"
+                        "Desktop App"
                     ],
                     "logo": {
                         "url": ""
