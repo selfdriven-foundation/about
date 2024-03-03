@@ -192,7 +192,7 @@
                     "caption": "AdaLite",
                     "description":
                     [
-                        "Chrome-based browsers",
+                        "Chrome-based Browsers",
                         "Associated with NuFi"
                     ],
                     "logo": {
@@ -207,7 +207,7 @@
                     "caption": "Begin",
                     "description":
                     [
-                        "Chrome-based browsers",
+                        "Chrome-based Browsers",
                         "Mobile (Android & iOS)"
                     ],
                     "logo": {
@@ -235,7 +235,7 @@
                     "caption": "Eternl",
                     "description":
                     [
-                        "Chrome-based browsers",
+                        "Chrome-based Browsers",
                         "Mobile (Android & iOS)"
                     ],
                     "logo": {
@@ -425,7 +425,7 @@
                 },
                 {
                     "name": "ledger",
-                    "caption": "Ledger & Ledger Live",
+                    "caption": "Ledger",
                     "description":
                     [
                         "Desktop App (Windows. MacOS, Linux) for Ledger Hardware Wallet"
