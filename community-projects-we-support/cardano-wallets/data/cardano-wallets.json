@@ -428,7 +428,8 @@
                     "caption": "Ledger",
                     "description":
                     [
-                        "Desktop App (Windows. MacOS, Linux) for Ledger Hardware Wallet"
+                        "Hardware Wallet",
+                        "Desktop App (Windows. MacOS, Linux)"
                     ],
                     "logo": {
                         "url": ""
@@ -481,8 +482,7 @@
                     "description":
                     [
                         "Chrome-based Browsers (Extension)",
-                        "Mobile (Android & iOS)",
-                        "NFT Wallet / Tracker"
+                        "Mobile (Android & iOS)"
                     ],
                     "logo": {
                         "url": ""
