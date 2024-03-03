@@ -188,100 +188,139 @@
             },
             "data": [
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "adalite",
                     "caption": "AdaLite",
-                    "description": "Associated with NuFi",
+                    "description":
+                    [
+                        "Chrome-based browsers",
+                        "Associated with NuFi"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://adalite.io"
+                    "url": "https://adalite.io",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
+                    
                     "name": "begin",
                     "caption": "Begin",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based browsers",
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://begin.is"
+                    "url": "https://begin.is",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "daedalus",
                     "caption": "Daedalus",
-                    "description": "",
+                    "description":
+                    [
+                        "Desktop",
+                        "Full Node"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://daedalus.io"
+                    "url": "https://daedalus.io",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
-                    "name": "exodus",
+                    "name": "eternl",
                     "caption": "Eternl",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based browsers",
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://eternl.io"
+                    "url": "https://eternl.io",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "ellipal",
                     "caption": "Ellipal",
-                    "description": "",
+                    "description":
+                    [
+                        "Air-gapped Hardware Wallet"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://www.ellipal.com"
+                    "url": "https://www.ellipal.com",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "exodus",
                     "caption": "Exodus",
-                    "description": "",
+                    "description":
+                    [
+                        "Desktop",
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://www.exodus.com/ada-cardano-wallet"
+                    "url": "https://www.exodus.com/ada-cardano-wallet",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "flint",
                     "caption": "Flint",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://flint-wallet.com/"
+                    "url": "https://flint-wallet.com/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "gamechanger",
                     "caption": "GameChanger",
-                    "description": "",
+                    "description":
+                    [
+                        "Desktop",
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://gamechanger.finance/"
+                    "url": "https://gamechanger.finance/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "gero",
                     "caption": "Gero",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://gerowallet.io/"
+                    "url": "https://gerowallet.io/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete|1",
                     "name": "keystone",
                     "caption": "Keystone",
-                    "description": "",
+                    "description":
+                    [
+                        "Hardware Wallet"
+                    ],
                     "logo": {
                         "url": ""
                     },
@@ -318,13 +357,16 @@
                             "url": ""
                         }
                     },
-                    "standards": []
+                    "standards": [],
+                    "_dataprocessingstatus": "incomplete|1"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete|1",
                     "name": "lace",
                     "caption": "Lace",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based Browsers"
+                    ],
                     "logo": {
                         "url": ""
                     },
@@ -378,107 +420,142 @@
                     },
                     "standards": [
                         "cip-30"
-                    ]
+                    ],
+                    "_dataprocessingstatus": "incomplete|1"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
-                    "name": "liveledger",
-                    "caption": "Live Ledger",
-                    "description": "",
+                    "name": "ledger",
+                    "caption": "Ledger & Ledger Live",
+                    "description":
+                    [
+                        "Desktop App (Windows. MacOS, Linux) for Ledger Hardware Wallet"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://www.ledger.com/ledger-live"
+                    "url": "https://www.ledger.com/ledger-live",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "mantium",
                     "caption": "Mantium",
-                    "description": "",
+                    "description":
+                    [
+                        "Mobile (iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://www.mantium.app"
+                    "url": "https://www.mantium.app",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "nami",
                     "caption": "Nami",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based Browsers (Extension)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://namiwallet.io/"
+                    "url": "https://namiwallet.io/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "nufi",
                     "caption": "NuFi",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based Browsers (Extension)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://nu.fi/"
+                    "url": "https://nu.fi/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "poki",
                     "caption": "Poki",
-                    "description": "NFT Wallet / Tracker",
+                    "description":
+                    [
+                        "Chrome-based Browsers (Extension)",
+                        "Mobile (Android & iOS)",
+                        "NFT Wallet / Tracker"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://www.getpoki.com"
+                    "url": "https://www.getpoki.com",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "tangem",
                     "caption": "tangem",
-                    "description": "",
+                    "description":
+                    [
+                        "Hardware Wallet"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": " https://tangem.com"
+                    "url": "https://tangem.com",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "trezor",
                     "caption": "Trezor",
-                    "description": "",
+                    "description":
+                    [
+                        "Hardware Wallet"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://trezor.io/"
+                    "url": "https://trezor.io/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "typhon",
                     "caption": "Typhon",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based Browsers (Extension)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://typhonwallet.io/"
+                    "url": "https://typhonwallet.io/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
                     "name": "vesrpr",
                     "caption": "Vespr",
-                    "description": "",
+                    "description":
+                    [
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://vespr.xyz/"
+                    "url": "https://vespr.xyz/",
+                    "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "_dataprocessingstatus": "incomplete",
+                    
                     "name": "yoroi",
                     "caption": "Yoroi",
-                    "description": "",
+                    "description":
+                    [
+                        "Chrome-based Browsers (Extension)",
+                        "Mobile (Android & iOS)"
+                    ],
                     "logo": {
                         "url": ""
                     },
-                    "url": "https://yoroi-wallet.com"
+                    "url": "https://yoroi-wallet.com",
+                    "_dataprocessingstatus": "incomplete"
                 }
             ]
         }
