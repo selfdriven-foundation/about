@@ -381,7 +381,7 @@
                     "description":
                     [
                         "Chrome-based Browsers",
-                        "Supports SanchoNet (Testing Only)"
+                        "SanchoNet Testing Version Available"
                     ],
                     "logo": {
                         "url": ""
@@ -489,7 +489,7 @@
                     "description":
                     [
                         "Chrome-based Browsers (Extension)",
-                        "Supports SanchoNet (Testing Only)"
+                        "SanchoNet Testing Version Available"
                     ],
                     "logo": {
                         "url": ""
@@ -577,7 +577,7 @@
                     [
                         "Chrome-based Browsers (Extension)",
                         "Mobile (Android & iOS)",
-                        "Supports SanchoNet (Testing Only)"
+                        "SanchoNet Testing Version Available"
                     ],
                     "logo": {
                         "url": ""
