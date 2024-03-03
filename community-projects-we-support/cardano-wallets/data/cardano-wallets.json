@@ -172,6 +172,10 @@
                 "standards": {
                     "cip-30": {
                         "description": "CIP-30"
+                    },
+                    "cip-95": {
+                        "description": "CIP-95",
+                        "comments": "Supports Cardano Volaire Era."
                     }
                 },
                 "status": {
@@ -376,7 +380,8 @@
                     "summary": "Lace is a non-custodial wallet, so you have complete control over your private keys",
                     "description":
                     [
-                        "Chrome-based Browsers"
+                        "Chrome-based Browsers",
+                        "Supports SanchoNet (Testing Only)"
                     ],
                     "logo": {
                         "url": ""
@@ -483,7 +488,8 @@
                     "summary": "NuFi is a non-custodial wallet, so you have complete control over your private keys. NuFi is designed for users who are interested in DeFi (decentralized finance).",
                     "description":
                     [
-                        "Chrome-based Browsers (Extension)"
+                        "Chrome-based Browsers (Extension)",
+                        "Supports SanchoNet (Testing Only)"
                     ],
                     "logo": {
                         "url": ""
@@ -570,7 +576,8 @@
                     "description":
                     [
                         "Chrome-based Browsers (Extension)",
-                        "Mobile (Android & iOS)"
+                        "Mobile (Android & iOS)",
+                        "Supports SanchoNet (Testing Only)"
                     ],
                     "logo": {
                         "url": ""
