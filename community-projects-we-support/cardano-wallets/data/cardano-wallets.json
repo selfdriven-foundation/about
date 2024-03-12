@@ -479,7 +479,7 @@
                         "Mobile (iOS)"
                     ],
                     "images": {
-                        "icon": ""
+                        "icon": "mantium.icon.svg"
                     },
                     "url": "https://www.mantium.app",
                     "_dataprocessingstatus": "incomplete"
