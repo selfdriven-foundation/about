@@ -273,7 +273,8 @@
                     "description":
                     [
                         "A preview of what's to come to Eternl",
-                        "Chrome-based Browsers"
+                        "Chrome-based Browsers",
+                        "SanchoNet Testing Compatible"
                     ],
                     "images": {
                         "icon": "eternl-beta.icon.svg"
