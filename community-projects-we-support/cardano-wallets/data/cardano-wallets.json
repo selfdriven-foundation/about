@@ -201,7 +201,7 @@
                         "Associated with NuFi"
                     ],
                     "images": {
-                        "url": ""
+                        "icon": "adalite.icon.svg"
                     },
                     "url": "https://adalite.io",
                     "_dataprocessingstatus": "incomplete"
@@ -246,7 +246,7 @@
                         "Air-gapped Hardware Wallet"
                     ],
                     "images": {
-                        "url": ""
+                        "icon": "ellipal.icon.svg"
                     },
                     "url": "https://www.ellipal.com",
                     "_dataprocessingstatus": "incomplete"
