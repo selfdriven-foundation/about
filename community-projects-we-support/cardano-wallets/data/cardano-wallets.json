@@ -214,7 +214,8 @@
                     "description":
                     [
                         "Chrome-based Browsers",
-                        "Mobile (Android & iOS)"
+                        "Mobile (Android & iOS)",
+                        "CardanoShield Compatible"
                     ],
                     "images": {
                         "icon": "begin.icon.svg"
@@ -336,7 +337,8 @@
                     "description":
                     [
                         "Chrome-based Browsers",
-                        "Mobile (Android & iOS)"
+                        "Mobile (Android & iOS)",
+                        "CardanoShield Compatible"
                     ],
                     "images": {
                         "icon": "gerowallet.icon.svg"
