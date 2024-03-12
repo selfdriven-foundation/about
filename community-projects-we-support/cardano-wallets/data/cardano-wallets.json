@@ -520,7 +520,8 @@
                     "description":
                     [
                         "Chrome-based Browsers (Extension)",
-                        "Mobile (Android & iOS)"
+                        "Mobile (Android & iOS)",
+                        "Portfolio Tracker"
                     ],
                     "images": {
                         "icon": "poki.icon.svg"
