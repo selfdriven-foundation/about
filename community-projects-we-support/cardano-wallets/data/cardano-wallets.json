@@ -258,7 +258,8 @@
                     "summary": "A preview of what's to come to Eternl. This beta extension helps the Eternl team test new features with a smaller, but dedicated group of Cardano community members.",
                     "description":
                     [
-                        "Chrome-based Browsers"
+                        "Chrome-based Browsers",
+                        "A preview of what's to come to Eternl"
                     ],
                     "logo": {
                         "url": ""
