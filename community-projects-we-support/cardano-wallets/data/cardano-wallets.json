@@ -276,7 +276,7 @@
                         "Chrome-based Browsers"
                     ],
                     "images": {
-                        "url": ""
+                        "icon": "eternl-beta.icon.svg"
                     },
                     "url": "https://chromewebstore.google.com/detail/eternl-beta/aafgiaaomjbkmgainbdgjpcndnodkajp?pli=1",
                     "_dataprocessingstatus": "incomplete"
@@ -352,7 +352,7 @@
                         "Hardware Wallet"
                     ],
                     "images": {
-                        "url": ""
+                        "icon": "keystone.icon.svg"
                     },
                     "url": " https://keyst.one/",
                     "ui-sizes": [
@@ -523,7 +523,7 @@
                         "Mobile (Android & iOS)"
                     ],
                     "images": {
-                        "url": ""
+                        "icon": "poki.icon.svg"
                     },
                     "url": "https://www.getpoki.com",
                     "_dataprocessingstatus": "incomplete"
