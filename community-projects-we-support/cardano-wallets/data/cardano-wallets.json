@@ -571,7 +571,7 @@
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    "name": "vesrpr",
+                    "name": "vespr",
                     "caption": "Vespr",
                     "summary": "Vespr Wallet is a non-custodial mobile wallet for Cardano that is available for iOS and Android devices.",
                     "description":
@@ -579,7 +579,7 @@
                         "Mobile (Android & iOS)"
                     ],
                     "images": {
-                        "icon": "vesrpr.icon.svg"
+                        "icon": "vespr.icon.svg"
                     },
                     "url": "https://vespr.xyz/",
                     "_dataprocessingstatus": "incomplete"
