@@ -178,7 +178,7 @@
                         "comments": "Supports Cardano Volaire Era."
                     }
                 },
-                "status": {
+                "statuses": {
                     "supported": {
                         "description": "Actively supported"
                     },
@@ -187,6 +187,20 @@
                     },
                     "unsupported": {
                         "description": "Not supported anymore"
+                    },
+                    "testing": {
+                        "description": "Released for community testing (beta)"
+                    }
+                },
+                "user-experiences": {
+                    "new-to-cardano": {
+                        "description": "I'm new to Cardano"
+                    },
+                    "experienced-cardano-user": {
+                        "description": "I've been in Cardano"
+                    },
+                    "drep": {
+                        "description": "I'm a dRep"
                     }
                 }
             },
@@ -195,8 +209,7 @@
                     "name": "adalite",
                     "caption": "AdaLite",
                     "summary": "A web-based wallet that is simple and easy to use.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers",
                         "Associated with NuFi"
                     ],
@@ -207,12 +220,10 @@
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    
                     "name": "begin",
                     "caption": "Begin",
                     "summary": "A mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys. Begin is a good option for users who are looking for a simple and easy-to-use wallet.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers",
                         "Mobile (Android & iOS)",
                         "CardanoShield Compatible"
@@ -227,8 +238,7 @@
                     "name": "daedalus",
                     "caption": "Daedalus",
                     "summary": "Developed by IOHK, the official developers of Cardano, Daedalus is a full node wallet, meaning it downloads the entire Cardano blockchain to your device. This provides a high level of security but also requires more storage space.",
-                    "description":
-                    [
+                    "description": [
                         "Desktop App",
                         "Full Node"
                     ],
@@ -242,8 +252,7 @@
                     "name": "ellipal",
                     "caption": "Ellipal",
                     "summary": "Ellipal is a hardware wallet that is designed to be very secure. It has a built-in cold storage system that keeps your private keys isolated from the internet.",
-                    "description":
-                    [
+                    "description": [
                         "Air-gapped Hardware Wallet"
                     ],
                     "images": {
@@ -256,8 +265,7 @@
                     "name": "eternl",
                     "caption": "Eternl",
                     "summary": "Eternl is a browser-based wallet that is simple and easy to use. It is a non-custodial wallet, so you have complete control over your private keys.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers",
                         "Mobile (Android & iOS)"
                     ],
@@ -271,8 +279,7 @@
                     "name": "eternl-beta",
                     "caption": "Eternl Beta",
                     "summary": "A preview of what's to come to Eternl. This beta extension helps the Eternl team test new features with a smaller, but dedicated group of Cardano community members.",
-                    "description":
-                    [
+                    "description": [
                         "A preview of what's to come to Eternl",
                         "Chrome-based Browsers",
                         "SanchoNet Testing Compatible"
@@ -281,14 +288,16 @@
                         "icon": "eternl-beta.icon.svg"
                     },
                     "url": "https://chromewebstore.google.com/detail/eternl-beta/aafgiaaomjbkmgainbdgjpcndnodkajp?pli=1",
+                    "statuses": [
+                        "testing"
+                    ],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
                     "name": "exodus",
                     "caption": "Exodus",
                     "summary": "Exodus is a software wallet that supports a wide variety of cryptocurrencies, including Cardano. It is a non-custodial wallet, so you have complete control over your private keys. Exodus also offers a number of other features, such as built-in exchange and staking.",
-                    "description":
-                    [
+                    "description": [
                         "Desktop App",
                         "Chrome-based Browsers",
                         "Mobile (Android & iOS)"
@@ -303,8 +312,7 @@
                     "name": "flint",
                     "caption": "Flint",
                     "summary": "Flint Wallet is a non-custodial mobile wallet for Cardano that is available for iOS and Android devices. It is a simple and easy-to-use wallet that is a good option for beginners.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers",
                         "Mobile (Android & iOS)"
                     ],
@@ -318,8 +326,7 @@
                     "name": "gamechanger",
                     "caption": "GameChanger",
                     "summary": "GameChanger is a mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys. GameChanger is designed for users who are interested in playing blockchain games.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers",
                         "Mobile (Android & iOS)"
                     ],
@@ -334,8 +341,7 @@
                     "name": "gerowallet",
                     "caption": "GeroWallet",
                     "summary": "GeroWallet is a mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys. GeroWallet is designed for users who are interested in staking Cardano.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers",
                         "Mobile (Android & iOS)",
                         "CardanoShield Compatible"
@@ -350,8 +356,7 @@
                     "name": "keystone",
                     "caption": "Keystone",
                     "summary": "Keystone is a hardware wallet that is designed to be very secure. It has a built-in cold storage system that keeps your private keys isolated from the internet.",
-                    "description":
-                    [
+                    "description": [
                         "Hardware Wallet"
                     ],
                     "images": {
@@ -397,8 +402,7 @@
                     "name": "lace",
                     "caption": "Lace",
                     "summary": "Lace is a non-custodial wallet, so you have complete control over your private keys",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers",
                         "SanchoNet Testing Version Available"
                     ],
@@ -462,8 +466,7 @@
                     "name": "ledger",
                     "caption": "Ledger",
                     "summary": "Ledger is a hardware wallet.",
-                    "description":
-                    [
+                    "description": [
                         "Hardware Wallet",
                         "Desktop App"
                     ],
@@ -477,8 +480,7 @@
                     "name": "mantium",
                     "caption": "Mantium",
                     "summary": "Mantium is a mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys.",
-                    "description":
-                    [
+                    "description": [
                         "Mobile (iOS)"
                     ],
                     "images": {
@@ -491,8 +493,7 @@
                     "name": "nami",
                     "caption": "Nami",
                     "summary": "Nami is a non-custodial wallet that gives you complete control over your private keys. This means you're responsible for securing your own funds, but it also gives you the most flexibility.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers (Extension)"
                     ],
                     "images": {
@@ -505,8 +506,7 @@
                     "name": "nufi",
                     "caption": "NuFi",
                     "summary": "NuFi is a non-custodial wallet, so you have complete control over your private keys. NuFi is designed for users who are interested in DeFi (decentralized finance).",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers (Extension)",
                         "SanchoNet Testing Version Available"
                     ],
@@ -520,8 +520,7 @@
                     "name": "poki",
                     "caption": "Poki",
                     "summary": "",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers (Extension)",
                         "Mobile (Android & iOS)",
                         "Portfolio Tracker"
@@ -536,8 +535,7 @@
                     "name": "tangem",
                     "caption": "Tangem",
                     "summary": "Tangem is a unique option that offers a combination of a physical card and a mobile app. The card stores your private keys securely, while the app allows you to interact with your Cardano on the go.",
-                    "description":
-                    [
+                    "description": [
                         "Hardware Wallet"
                     ],
                     "images": {
@@ -550,8 +548,7 @@
                     "name": "trezor",
                     "caption": "Trezor",
                     "summary": "Trezor hardware wallets are another popular option for storing your cryptocurrency securely.",
-                    "description":
-                    [
+                    "description": [
                         "Hardware Wallet"
                     ],
                     "images": {
@@ -564,8 +561,7 @@
                     "name": "typhon",
                     "caption": "Typhon",
                     "summary": "Typhonis a non-custodial wallet, so you have complete control over your private keys.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers (Extension)"
                     ],
                     "images": {
@@ -578,8 +574,7 @@
                     "name": "vespr",
                     "caption": "Vespr",
                     "summary": "Vespr Wallet is a non-custodial mobile wallet for Cardano that is available for iOS and Android devices.",
-                    "description":
-                    [
+                    "description": [
                         "Mobile (Android & iOS)"
                     ],
                     "images": {
@@ -589,12 +584,10 @@
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
-                    
                     "name": "yoroi",
                     "caption": "Yoroi",
                     "summary": "Developed by EMURGO, a company that builds solutions on the Cardano blockchain, Yoroi is a light wallet, meaning it doesn't download the entire blockchain.",
-                    "description":
-                    [
+                    "description": [
                         "Chrome-based Browsers (Extension)",
                         "Mobile (Android & iOS)",
                         "SanchoNet Testing Version Available"
