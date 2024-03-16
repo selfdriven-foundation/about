@@ -590,6 +590,7 @@
                     "summary": "Developed by EMURGO, a company that builds solutions on the Cardano blockchain, Yoroi is a light wallet, meaning it doesn't download the entire blockchain.",
                     "description": [
                         "Chrome-based Browsers (Extension)",
+                        "Firefox Browser (Extension)",
                         "Mobile (Android & iOS)",
                         "SanchoNet Testing Version Available"
                     ],
