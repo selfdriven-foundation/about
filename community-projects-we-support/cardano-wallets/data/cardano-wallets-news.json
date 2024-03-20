@@ -37,6 +37,14 @@
                         "status": "active",
                         "type": "website",
                         "url": "https://identity.cardanofoundation.org"
+                    },
+                    {
+                        "date": "02APR2023",
+                        "by": "IAMX",
+                        "description": "IAMX release Identity Wallet.",
+                        "status": "active",
+                        "type": "website",
+                        "url": "https://chromewebstore.google.com/detail/iamx/bcajhfdjblfnhnkpklnhekapknijhcpk"
                     }
                 ]
                 }
