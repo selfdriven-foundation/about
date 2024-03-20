@@ -267,7 +267,10 @@
                     "summary": "Eternl is a browser-based wallet that is simple and easy to use. It is a non-custodial wallet, so you have complete control over your private keys.",
                     "description": [
                         "Chrome-based Browsers",
-                        "Mobile (Android & iOS)"
+                        "Mobile (Android & iOS)",
+                        "Scam Warnings (Eternl Guard)",
+                        "Wallet Cleanup",
+                        "SanchoNet Testing Compatible"
                     ],
                     "images": {
                         "icon": "eternl.icon.svg"
