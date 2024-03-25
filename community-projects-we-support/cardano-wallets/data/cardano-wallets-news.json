@@ -5,7 +5,14 @@
                 {
                 "schema": {},
                 "data": [
-
+                    {
+                        "date": "24MAR2024",
+                        "by": "Dapp Central",
+                        "description": "Begin Wallet Overview.",
+                        "status": "active",
+                        "type": "youtube",
+                        "url": "https://youtu.be/D7ePNUg5U3w"
+                    },
                     {
                         "date": "14FEB2024",
                         "by": "LearnCardano",
