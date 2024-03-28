@@ -235,6 +235,21 @@
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
+                    "name": "coinwallet",
+                    "caption": "Coin Wallet",
+                    "summary": "Trusted by millions of users, over 24 million wallets created in 27 languages in 190 countries, Coin Wallet is the most popular and secure non-custodial multicurrency wallet.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)",
+                        "Desktop (MacOS, Microsoft Windows, Linux & Tor)"
+                    ],
+                    "images": {
+                        "icon": "coinwallet.icon.svg"
+                    },
+                    "url": "https://coin.space",
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
                     "name": "daedalus",
                     "caption": "Daedalus",
                     "summary": "Developed by IOHK, the official developers of Cardano, Daedalus is a full node wallet, meaning it downloads the entire Cardano blockchain to your device. This provides a high level of security but also requires more storage space.",
@@ -559,6 +574,20 @@
                         "icon": "trezor.icon.svg"
                     },
                     "url": "https://trezor.io/",
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "trustwallet",
+                    "caption": "Trust Wallet",
+                    "summary": "Unlock the power of your cryptocurrency assets and explore the world of Web3 with Trust.",
+                    "description": [
+                        "Chrome-based Browsers (Extension)",
+                        "Mobile (Android & iOS)"
+                    ],
+                    "images": {
+                        "icon": "trustwallet.icon.svg"
+                    },
+                    "url": "https://trustwallet.com",
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
