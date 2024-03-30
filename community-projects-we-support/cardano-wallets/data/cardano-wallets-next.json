@@ -176,6 +176,10 @@
                     "cip-95": {
                         "description": "CIP-95",
                         "comments": "Supports Cardano Volaire Era."
+                    },
+                    "cip-99": {
+                        "description": "CIP-99",
+                        "comments": "Supports Proof Of On-Boarding (POO)."
                     }
                 },
                 "statuses": {
@@ -312,6 +316,7 @@
                     },
                     "url": "https://eternl.io",
                     "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "standards": ["cip-30", "cip-95"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -329,6 +334,7 @@
                     },
                     "url": "https://chromewebstore.google.com/detail/eternl-beta/aafgiaaomjbkmgainbdgjpcndnodkajp?pli=1",
                     "user-experiences": ["experienced-cardano-user", "dgov"],
+                    "standards": ["cip-30", "cip-95"],
                     "statuses": [
                         "testing"
                     ],
@@ -363,6 +369,7 @@
                     },
                     "url": "https://flint-wallet.com/",
                     "user-experiences": ["using-it-for-real", "experienced-cardano-user", "defi"],
+                    "standards": ["cip-30"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -395,6 +402,7 @@
                     },
                     "url": "https://gerowallet.io/",
                     "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user", "defi"],
+                    "standards": ["cip-30", "cardano-shield"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -505,7 +513,8 @@
                         }
                     },
                     "standards": [
-                        "cip-30"
+                        "cip-30",
+                        "cip-95"
                     ],
                     "_dataprocessingstatus": "incomplete|1"
                 },
@@ -550,6 +559,7 @@
                     },
                     "url": "https://namiwallet.io/",
                     "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "standards": ["cip-30"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -564,6 +574,7 @@
                         "icon": "nufi.icon.svg"
                     },
                     "url": "https://nu.fi/",
+                    "standards": ["cip-30", "cip-95"],
                     "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov", "defi"],
                     "_dataprocessingstatus": "incomplete"
                 },
@@ -638,6 +649,7 @@
                     },
                     "url": "https://typhonwallet.io/",
                     "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "standards": ["cip-30"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -651,6 +663,7 @@
                         "icon": "vespr.icon.svg"
                     },
                     "url": "https://vespr.xyz/",
+                    "standards": ["cip-99"],
                     "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
@@ -669,6 +682,7 @@
                     },
                     "url": "https://yoroi-wallet.com",
                     "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "standards": ["cip-99", "cip-30"],
                     "_dataprocessingstatus": "incomplete"
                 }
             ]
