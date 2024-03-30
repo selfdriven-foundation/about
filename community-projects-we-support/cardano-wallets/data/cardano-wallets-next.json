@@ -279,7 +279,7 @@
                         "icon": "daedalus.icon.svg"
                     },
                     "url": "https://daedalus.io",
-                    "user-experiences": ["experienced-cardano-user", "dgov"],
+                    "user-experiences": ["experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -293,7 +293,7 @@
                         "icon": "ellipal.icon.svg"
                     },
                     "url": "https://www.ellipal.com",
-                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -608,7 +608,7 @@
                         "icon": "trezor.icon.svg"
                     },
                     "url": "https://trezor.io/",
-                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
