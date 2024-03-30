@@ -264,7 +264,7 @@
                         "icon": "coinwallet.icon.svg"
                     },
                     "url": "https://coin.space",
-                    "user-experiences": ["getting-started", "using-it-for-real"],
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -549,7 +549,7 @@
                         "icon": "nami.icon.svg"
                     },
                     "url": "https://namiwallet.io/",
-                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -668,7 +668,7 @@
                         "icon": "yoroi.icon.svg"
                     },
                     "url": "https://yoroi-wallet.com",
-                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user", "dgov"],
                     "_dataprocessingstatus": "incomplete"
                 }
             ]
