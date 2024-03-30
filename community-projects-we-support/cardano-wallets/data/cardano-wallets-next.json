@@ -193,14 +193,29 @@
                     }
                 },
                 "user-experiences": {
-                    "new-to-cardano": {
-                        "description": "I'm new to Cardano"
+                    "keep-it-simple": {
+                        "description": "Keep it really simple for me! I do not have many digital assets that I need to protect."
+                    },
+                    "getting-started": {
+                        "description": "I'm just getting started and do not have many digital assets that I need to protect."
+                    },
+                    "using-it-for-real": {
+                        "description": "I'm using Cardano and have digital assets that I need to protect."
                     },
                     "experienced-cardano-user": {
                         "description": "I've been in Cardano"
                     },
-                    "drep": {
+                    "dgov": {
                         "description": "I'm a dRep"
+                    },
+                    "identity": {
+                        "description": "Just for my SSI DIDs & VCs etc"
+                    },
+                    "defi": {
+                        "description": "Trading etc"
+                    },
+                    "art-nfts": {
+                        "description": "Art NFT collections etc"
                     }
                 }
             },
@@ -217,6 +232,7 @@
                         "icon": "adalite.icon.svg"
                     },
                     "url": "https://adalite.io",
+                    "user-experiences": [],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -232,6 +248,7 @@
                         "icon": "begin.icon.svg"
                     },
                     "url": "https://begin.is",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -247,6 +264,7 @@
                         "icon": "coinwallet.icon.svg"
                     },
                     "url": "https://coin.space",
+                    "user-experiences": ["getting-started", "using-it-for-real"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -261,6 +279,7 @@
                         "icon": "daedalus.icon.svg"
                     },
                     "url": "https://daedalus.io",
+                    "user-experiences": ["experienced-cardano-user", "dgov"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -274,6 +293,7 @@
                         "icon": "ellipal.icon.svg"
                     },
                     "url": "https://www.ellipal.com",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -291,6 +311,7 @@
                         "icon": "eternl.icon.svg"
                     },
                     "url": "https://eternl.io",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -307,6 +328,7 @@
                         "icon": "eternl-beta.icon.svg"
                     },
                     "url": "https://chromewebstore.google.com/detail/eternl-beta/aafgiaaomjbkmgainbdgjpcndnodkajp?pli=1",
+                    "user-experiences": ["experienced-cardano-user", "dgov"],
                     "statuses": [
                         "testing"
                     ],
@@ -325,6 +347,7 @@
                         "icon": "exodus.icon.svg"
                     },
                     "url": "https://www.exodus.com/ada-cardano-wallet",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -339,6 +362,7 @@
                         "icon": "flint.icon.svg"
                     },
                     "url": "https://flint-wallet.com/",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "defi"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -354,6 +378,7 @@
                     },
                     "url": "https://gamechanger.finance/",
                     "_dataprocessingstatus": "incomplete",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "id": "817c4dbd4052717e0c3593c402c5c7adf7c40e6a606892c636fc316c3ea04cef"
                 },
                 {
@@ -369,6 +394,7 @@
                         "icon": "gerowallet.icon.svg"
                     },
                     "url": "https://gerowallet.io/",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user", "defi"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -382,6 +408,7 @@
                         "icon": "keystone.icon.svg"
                     },
                     "url": " https://keyst.one/",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
                     "ui-sizes": [
                         "nano"
                     ],
@@ -429,6 +456,7 @@
                         "icon": "lace.icon.svg"
                     },
                     "url": "https://lace.io",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user", "dgov"],
                     "ui-sizes": [
                         "small",
                         "medium",
@@ -493,6 +521,7 @@
                         "icon": "ledger.icon.svg"
                     },
                     "url": "https://www.ledger.com/ledger-live",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -506,6 +535,7 @@
                         "icon": "mantium.icon.svg"
                     },
                     "url": "https://www.mantium.app",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -519,6 +549,7 @@
                         "icon": "nami.icon.svg"
                     },
                     "url": "https://namiwallet.io/",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -533,6 +564,7 @@
                         "icon": "nufi.icon.svg"
                     },
                     "url": "https://nu.fi/",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov", "defi"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -548,6 +580,7 @@
                         "icon": "poki.icon.svg"
                     },
                     "url": "https://www.getpoki.com",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "art-nfts"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -561,6 +594,7 @@
                         "icon": "tangem.icon.svg"
                     },
                     "url": "https://tangem.com",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -574,6 +608,7 @@
                         "icon": "trezor.icon.svg"
                     },
                     "url": "https://trezor.io/",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -588,6 +623,7 @@
                         "icon": "trustwallet.icon.svg"
                     },
                     "url": "https://trustwallet.com",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -601,6 +637,7 @@
                         "icon": "typhon.icon.svg"
                     },
                     "url": "https://typhonwallet.io/",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -614,6 +651,7 @@
                         "icon": "vespr.icon.svg"
                     },
                     "url": "https://vespr.xyz/",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -630,6 +668,7 @@
                         "icon": "yoroi.icon.svg"
                     },
                     "url": "https://yoroi-wallet.com",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user", "dgov"],
                     "_dataprocessingstatus": "incomplete"
                 }
             ]

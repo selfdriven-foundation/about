@@ -193,14 +193,23 @@
                     }
                 },
                 "user-experiences": {
-                    "new-to-cardano": {
-                        "description": "I'm new to Cardano"
+                    "keep-it-simple": {
+                        "description": "Keep it really simple for me! I do not have many digital assets that I need to protect."
+                    },
+                    "getting-started": {
+                        "description": "I'm just getting started and do not have many digital assets that I need to protect."
+                    },
+                    "using-it-for-real": {
+                        "description": "I'm using Cardano and have digital assets that I need to protect."
                     },
                     "experienced-cardano-user": {
                         "description": "I've been in Cardano"
                     },
-                    "drep": {
+                    "dgov": {
                         "description": "I'm a dRep"
+                    },
+                    "identity": {
+                        "description": "Just for my SSI DIDs & VCs etc"
                     }
                 }
             },
@@ -217,6 +226,7 @@
                         "icon": "adalite.icon.svg"
                     },
                     "url": "https://adalite.io",
+                    "user-experiences": [],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -232,6 +242,7 @@
                         "icon": "begin.icon.svg"
                     },
                     "url": "https://begin.is",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -247,6 +258,7 @@
                         "icon": "coinwallet.icon.svg"
                     },
                     "url": "https://coin.space",
+                    "user-experiences": ["getting-started", "using-it-for-real"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
@@ -261,6 +273,7 @@
                         "icon": "daedalus.icon.svg"
                     },
                     "url": "https://daedalus.io",
+                    "user-experiences": ["experienced-cardano-user", "dgov"],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
