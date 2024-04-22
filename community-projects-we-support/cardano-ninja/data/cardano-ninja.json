@@ -53,6 +53,22 @@
                         "status": "active"
                     }
                 ]
+            },
+            "community":
+            {
+                "schema": {},
+                "data":
+                [
+                    {
+                        "date": "24APR2024",
+                        "by": "Dapp Central",
+                        "description": "Please Don't Fall For This Scam!!",
+                        "status": "active",
+                        "type": "youtube",
+                        "url": "https://youtu.be/j8cE8Dt0N_8"
+                    }
+                ]
+
             }
         }
     }
