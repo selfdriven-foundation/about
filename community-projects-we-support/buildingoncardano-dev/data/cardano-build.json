@@ -33,7 +33,8 @@
                     },
                     {
                         "name": "open-source",
-                        "caption": "Open Source"
+                        "caption": "Open Source",
+                        "styleClass": "lead"
                     },
                     {
                         "name": "community",
