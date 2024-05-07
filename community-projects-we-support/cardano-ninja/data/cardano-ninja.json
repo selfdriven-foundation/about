@@ -60,6 +60,22 @@
                 "data":
                 [
                     {
+                        "date": "06MAY2024",
+                        "by": "Dapp Central",
+                        "description": "Law Enforcement Dealing with Fraud & Crypto Education",
+                        "status": "active",
+                        "type": "youtube",
+                        "url": "https://youtu.be/1mrub-bFFVQ"
+                    },
+                    {
+                        "date": "04MAY2024",
+                        "by": "Nova",
+                        "description": "Eternl Guard",
+                        "status": "active",
+                        "type": "youtube",
+                        "url": "https://www.youtube.com/watch?v=5vtRgvPlQUQ"
+                    },
+                    {
                         "date": "24APR2024",
                         "by": "Dapp Central",
                         "description": "Please Don't Fall For This Scam!!",
