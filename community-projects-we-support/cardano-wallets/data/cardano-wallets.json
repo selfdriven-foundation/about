@@ -609,6 +609,23 @@
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
+                    "name": "tokeo",
+                    "caption": "Tokeo",
+                    "summary": "Tokeo Smart Wallet. Send, receive, swap and sell digital assets.",
+                    "description": [
+                        "Mobile (Android & iOS)"
+                    ],
+                    "images": {
+                        "icon": "tokeo.icon.svg"
+                    },
+                    "url": "https://tokeo.io/",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "art-nfts", "experienced-cardano-user"],
+                    "statuses": [
+                        "testing"
+                    ],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
                     "name": "trezor",
                     "caption": "Trezor",
                     "summary": "Trezor hardware wallets are another popular option for storing your cryptocurrency securely.",
