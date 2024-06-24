@@ -230,7 +230,8 @@
                     "summary": "A web-based wallet that is simple and easy to use.",
                     "description": [
                         "Chrome-based Browsers",
-                        "Associated with NuFi"
+                        "Associated with NuFi",
+                        "Catalyst Registration"
                     ],
                     "images": {
                         "icon": "adalite.icon.svg"
@@ -277,7 +278,8 @@
                     "summary": "Developed by IOHK, the official developers of Cardano, Daedalus is a full node wallet, meaning it downloads the entire Cardano blockchain to your device. This provides a high level of security but also requires more storage space.",
                     "description": [
                         "Desktop App",
-                        "Full Node"
+                        "Full Node",
+                        "Catalyst Registration"
                     ],
                     "images": {
                         "icon": "daedalus.icon.svg"
@@ -309,7 +311,8 @@
                         "Mobile (Android & iOS)",
                         "Scam Warnings (Eternl Guard)",
                         "Wallet Clean Up",
-                        "SanchoNet Testing Compatible"
+                        "SanchoNet Testing Compatible",
+                        "Catalyst Registration"
                     ],
                     "images": {
                         "icon": "eternl.icon.svg"
@@ -659,7 +662,8 @@
                     "caption": "Typhon",
                     "summary": "Typhonis a non-custodial wallet, so you have complete control over your private keys.",
                     "description": [
-                        "Chrome-based Browsers (Extension)"
+                        "Chrome-based Browsers (Extension)",
+                        "Catalyst Registration"
                     ],
                     "images": {
                         "icon": "typhon.icon.svg"
@@ -692,7 +696,8 @@
                         "Chrome-based Browsers (Extension)",
                         "Firefox Browser (Extension)",
                         "Mobile (Android & iOS)",
-                        "SanchoNet Testing Version Available"
+                        "SanchoNet Testing Version Available",
+                        "Catalyst Registration"
                     ],
                     "images": {
                         "icon": "yoroi.icon.svg"
