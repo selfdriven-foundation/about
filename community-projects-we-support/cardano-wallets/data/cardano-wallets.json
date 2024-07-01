@@ -616,16 +616,14 @@
                     "caption": "Tokeo",
                     "summary": "Tokeo Smart Wallet. Send, receive, swap and sell digital assets.",
                     "description": [
-                        "Mobile (Android & iOS)"
+                        "Mobile (iOS / Android Coming Soon)"
                     ],
                     "images": {
                         "icon": "tokeo.icon.svg"
                     },
                     "url": "https://tokeopay.io",
                     "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "art-nfts", "experienced-cardano-user"],
-                    "statuses": [
-                        "testing"
-                    ],
+                    "statuses": [],
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
