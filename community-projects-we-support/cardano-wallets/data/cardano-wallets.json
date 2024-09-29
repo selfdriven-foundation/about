@@ -311,7 +311,7 @@
                         "Mobile (Android & iOS)",
                         "Scam Warnings (Eternl Guard)",
                         "Wallet Clean Up",
-                        "SanchoNet Testing Compatible",
+                        "dGov Compatible",
                         "Catalyst Registration"
                     ],
                     "images": {
@@ -330,7 +330,7 @@
                         "For Community Testing",
                         "Only use if experienced with Cardano",
                         "Chrome-based Browsers",
-                        "SanchoNet Testing Compatible"
+                        "dGov Compatible"
                     ],
                     "images": {
                         "icon": "eternl-beta.icon.svg"
@@ -461,7 +461,7 @@
                     "summary": "Lace is a non-custodial wallet, so you have complete control over your private keys",
                     "description": [
                         "Chrome-based Browsers",
-                        "SanchoNet Testing Version Available"
+                        "dGov Compatible"
                     ],
                     "images": {
                         "icon": "lace.icon.svg"
@@ -571,7 +571,7 @@
                     "summary": "NuFi is a non-custodial wallet, so you have complete control over your private keys. NuFi is designed for users who are interested in DeFi (decentralized finance).",
                     "description": [
                         "Chrome-based Browsers (Extension)",
-                        "SanchoNet Testing Version Available"
+                        "dGov Compatible"
                     ],
                     "images": {
                         "icon": "nufi.icon.svg"
@@ -694,7 +694,7 @@
                         "Chrome-based Browsers (Extension)",
                         "Firefox Browser (Extension)",
                         "Mobile (Android & iOS)",
-                        "SanchoNet Testing Version Available",
+                        "dGov Compatible",
                         "Catalyst Registration"
                     ],
                     "images": {
